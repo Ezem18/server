@@ -11,5 +11,23 @@
     },
     "done": false
   },
+  "ancient_elements:ancient_elements": {
+    "criteria": {
+      "ancient_elements": "2024-12-25 23:03:44 +0000"
+    },
+    "done": true
+  },
+  "cataclysm:root": {
+    "criteria": {
+      "custom_test_name": "2024-12-25 23:03:44 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:wda_root": {
+    "criteria": {
+      "WDA": "2024-12-25 23:03:44 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
