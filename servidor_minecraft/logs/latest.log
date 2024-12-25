@@ -694,3 +694,56 @@
 [25Dec2024 23:21:08.138] [IO-Worker-14/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/nbt/StreamTagVisitor$EntryResult
 [25Dec2024 23:21:16.988] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samugabe has reached the goal [Sky's the Limit]
 [25Dec2024 23:21:38.663] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/animal/IronGolem$Crackiness
+[25Dec2024 23:22:13.015] [Worker-Main-1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/ai/goal/RangedCrossbowAttackGoal$CrossbowState
+[25Dec2024 23:22:36.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PurpleGuyKiller7: Teleported PurpleGuyKiller7 to Samugabe]
+[25Dec2024 23:22:45.969] [Worker-Main-2/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/animal/horse/Markings
+[25Dec2024 23:22:49.783] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Samugabe moved too quickly! 7.572116664631494,-3.350731175639865,16.889744932290455
+[25Dec2024 23:22:56.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PurpleGuyKiller7 has reached the goal [Cosmic Discoverer]
+[25Dec2024 23:23:13.879] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PurpleGuyKiller7: Set own game mode to Survival Mode]
+[25Dec2024 23:23:20.965] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/entity/BeehiveBlockEntity$BeeReleaseStatus
+[25Dec2024 23:23:22.202] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/server/commands/SetBlockCommand$Mode
+[25Dec2024 23:23:41.818] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PurpleGuyKiller7: Set own game mode to Creative Mode]
+[25Dec2024 23:23:54.854] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity ancient_elements:undead_miner but it was marked as removed already
+[25Dec2024 23:23:54.855] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity ancient_elements:undead_miner but it was marked as removed already
+[25Dec2024 23:23:55.601] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity ancient_elements:undead_miner but it was marked as removed already
+[25Dec2024 23:23:59.463] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PurpleGuyKiller7 has made the advancement [Battle Towers?]
+[25Dec2024 23:24:01.364] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samugabe has made the advancement [The Lighthouse]
+[25Dec2024 23:24:07.380] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/StructureCheckResult
+[25Dec2024 23:24:09.733] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/material/MapColor$Brightness
+[25Dec2024 23:24:09.740] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2342ms or 46 ticks behind
+[25Dec2024 23:24:09.759] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Samugabe moved too quickly! 0.06348198772684555,-10.72812610848311,0.1254513581891743
+[25Dec2024 23:24:10.927] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/event/level/NoteBlockEvent$Note
+[25Dec2024 23:24:10.928] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/event/level/NoteBlockEvent$Octave
+[25Dec2024 23:24:29.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PurpleGuyKiller7: Teleported PurpleGuyKiller7 to Samugabe]
+[25Dec2024 23:24:45.334] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/vehicle/Boat$Status
+[25Dec2024 23:25:08.205] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samugabe has reached the goal [Drillmaster Extraordinaire]
+[25Dec2024 23:25:32.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PurpleGuyKiller7: Made Samugabe a server operator]
+[25Dec2024 23:25:42.624] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samugabe: Set own game mode to Survival Mode]
+[25Dec2024 23:25:48.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samugabe has made the advancement [Stone Age]
+[25Dec2024 23:26:01.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PurpleGuyKiller7 has made the advancement [Stone Age]
+[25Dec2024 23:26:21.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samugabe: Set own game mode to Creative Mode]
+[25Dec2024 23:27:08.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samugabe has reached the goal [Hammer Time!]
+[25Dec2024 23:27:26.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samugabe has made the advancement [Monster Hunter]
+[25Dec2024 23:27:34.512] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samugabe: Set own game mode to Survival Mode]
+[25Dec2024 23:27:35.301] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity ancient_elements:undead_miner but it was marked as removed already
+[25Dec2024 23:27:46.357] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PurpleGuyKiller7 lost connection: Disconnected
+[25Dec2024 23:27:46.358] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PurpleGuyKiller7 left the game
+[25Dec2024 23:27:49.604] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/Level$ExplosionInteraction
+[25Dec2024 23:27:49.605] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/Explosion$BlockInteraction
+[25Dec2024 23:27:50.425] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: PurpleGuyKiller7[/127.133.135.55:52661] logged in with entity id 7663 at (-2087.807754347692, 71.0, 6.752248467791376)
+[25Dec2024 23:27:50.444] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PurpleGuyKiller7 joined the game
+[25Dec2024 23:27:50.474] [Server thread/INFO] [Jade/]: Syncing config to PurpleGuyKiller7 (43c2ee71-9ae4-37a2-b797-1b2ae16c37c2)
+[25Dec2024 23:28:11.476] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/7727, l='ServerLevel[world]', x=-2114.39, y=70.00, z=3.57] died, message: 'Unemployed was slain by Samugabe'
+[25Dec2024 23:28:24.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samugabe was slain by Aurora Crystal Slime
+[25Dec2024 23:28:24.813] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/lothrazar/simpletomb/data/MessageType
+[25Dec2024 23:28:24.814] [Server thread/INFO] [com.lothrazar.simpletomb.ModTomb/]: simpletomb.message.new_grave(-2111, 71, 7) minecraft:overworld
+[25Dec2024 23:28:42.020] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PurpleGuyKiller7: Teleported Samugabe to PurpleGuyKiller7]
+[25Dec2024 23:28:46.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samugabe was slain by Aurora Crystal Slime
+[25Dec2024 23:29:30.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PurpleGuyKiller7 has made the advancement [Shiny Object Syndrome]
+[25Dec2024 23:29:59.365] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samugabe: Teleported Samugabe to PurpleGuyKiller7]
+[25Dec2024 23:30:05.725] [Server thread/INFO] [com.lothrazar.simpletomb.ModTomb/]: 0 result 0 air
+[25Dec2024 23:30:05.726] [Server thread/INFO] [com.lothrazar.simpletomb.ModTomb/]: 0 result 1 chainmail_gloves
+[25Dec2024 23:30:30.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PurpleGuyKiller7 has made the advancement [Monster Hunter]
+[25Dec2024 23:30:58.822] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samugabe: Set own game mode to Creative Mode]
+[25Dec2024 23:31:35.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samugabe has made the advancement [Diamond is Unbreakable]
+[25Dec2024 23:31:35.919] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samugabe has made the advancement [Immovable Object]
