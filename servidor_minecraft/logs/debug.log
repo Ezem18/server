@@ -6540,3 +6540,35 @@ com.mojang.brigadier.exceptions.CommandSyntaxException: Invalid chat component: 
 [25Dec2024 23:30:58.822] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samugabe: Set own game mode to Creative Mode]
 [25Dec2024 23:31:35.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samugabe has made the advancement [Diamond is Unbreakable]
 [25Dec2024 23:31:35.919] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samugabe has made the advancement [Immovable Object]
+[25Dec2024 23:32:11.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samugabe: Set own game mode to Survival Mode]
+[25Dec2024 23:32:20.395] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[25Dec2024 23:32:20.404] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[25Dec2024 23:33:57.558] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/github/L_Ender/lionfishapi/server/animation/AnimationHandler
+[25Dec2024 23:34:43.386] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PurpleGuyKiller7 was killed
+[25Dec2024 23:34:43.391] [Server thread/INFO] [com.lothrazar.simpletomb.ModTomb/]: simpletomb.message.new_grave(-2088, 70, 16) minecraft:overworld
+[25Dec2024 23:34:43.391] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samugabe: Killed PurpleGuyKiller7]
+[25Dec2024 23:34:45.514] [Server thread/DEBUG] [twilightforest/]: Player PurpleGuyKiller7 (43c2ee71-9ae4-37a2-b797-1b2ae16c37c2) respawned and received items held in storage
+[25Dec2024 23:34:55.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samugabe was killed whilst fighting Samugabe
+[25Dec2024 23:34:55.485] [Server thread/INFO] [com.lothrazar.simpletomb.ModTomb/]: simpletomb.message.new_grave(-2096, 70, 22) minecraft:overworld
+[25Dec2024 23:34:55.485] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PurpleGuyKiller7: Killed Samugabe]
+[25Dec2024 23:34:56.858] [Server thread/DEBUG] [twilightforest/]: Player Samugabe (68fa38b2-3af3-3f63-ab43-976257297021) respawned and received items held in storage
+[25Dec2024 23:35:03.666] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PurpleGuyKiller7 moved too quickly! -2099.7968664631794,-44.0,18.001327950043564
+[25Dec2024 23:35:09.836] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samugabe: Set own game mode to Creative Mode]
+[25Dec2024 23:35:23.370] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samugabe: Teleported Samugabe to PurpleGuyKiller7]
+[25Dec2024 23:35:28.020] [Server thread/INFO] [com.lothrazar.simpletomb.ModTomb/]: 0 result 0 air
+[25Dec2024 23:35:28.021] [Server thread/INFO] [com.lothrazar.simpletomb.ModTomb/]: 0 result 1 chainmail_gloves
+[25Dec2024 23:35:48.761] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samugabe: Set own game mode to Survival Mode]
+[25Dec2024 23:35:51.351] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity ancient_elements:undead_miner but it was marked as removed already
+[25Dec2024 23:36:34.559] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PurpleGuyKiller7: Teleported Samugabe to PurpleGuyKiller7]
+[25Dec2024 23:37:20.383] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[25Dec2024 23:37:20.391] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[25Dec2024 23:39:04.175] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samugabe: Set own game mode to Creative Mode]
+[25Dec2024 23:40:36.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PurpleGuyKiller7 has made the advancement [The Lighthouse]
+[25Dec2024 23:40:52.970] [Worker-Main-2/DEBUG] [ModernFix/]: Structure ancient_elements:east_cerulean_crystal_1 is being run through DFU (hash c2291ab053a9db95cc88b71474fd8863f08db7a8f3c5a7fd5f220248979bea1b), this will cause launch time delays
+[25Dec2024 23:41:28.376] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samugabe has made the advancement [I Am Inevitable]
+[25Dec2024 23:41:30.845] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samugabe has reached the goal [Combustive Weapon]
+[25Dec2024 23:41:33.396] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samugabe has completed the challenge [Master Sorcerer]
+[25Dec2024 23:41:34.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samugabe has completed the challenge [Is It a Pickaxe?]
+[25Dec2024 23:41:45.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samugabe has completed the challenge [A Stab In The Back]
+[25Dec2024 23:41:53.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samugabe has reached the goal [Sword of Space]
+[25Dec2024 23:41:55.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samugabe has made the advancement [Getting an Upgrade v2.0]
