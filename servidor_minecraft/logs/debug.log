@@ -6572,3 +6572,83 @@ com.mojang.brigadier.exceptions.CommandSyntaxException: Invalid chat component: 
 [25Dec2024 23:41:45.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samugabe has completed the challenge [A Stab In The Back]
 [25Dec2024 23:41:53.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samugabe has reached the goal [Sword of Space]
 [25Dec2024 23:41:55.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samugabe has made the advancement [Getting an Upgrade v2.0]
+[25Dec2024 23:42:20.390] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[25Dec2024 23:42:20.400] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[25Dec2024 23:47:20.385] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[25Dec2024 23:47:20.394] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[25Dec2024 23:47:42.605] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samugabe has made the advancement [Best Friends Forever]
+[25Dec2024 23:47:57.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PurpleGuyKiller7 was killed
+[25Dec2024 23:47:57.726] [Server thread/INFO] [com.lothrazar.simpletomb.ModTomb/]: simpletomb.message.new_grave(-2102, 67, -36) minecraft:overworld
+[25Dec2024 23:47:57.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samugabe was killed
+[25Dec2024 23:47:57.728] [Server thread/INFO] [com.lothrazar.simpletomb.ModTomb/]: simpletomb.message.new_grave(-2102, 64, -57) minecraft:overworld
+[25Dec2024 23:47:57.746] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/11881, l='ServerLevel[world]', x=-2055.50, y=64.00, z=-155.50] died, message: 'Unemployed was killed'
+[25Dec2024 23:47:57.748] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/11882, l='ServerLevel[world]', x=-2043.50, y=64.00, z=-179.50] died, message: 'Farmer was killed'
+[25Dec2024 23:47:57.752] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/12746, l='ServerLevel[world]', x=-2041.50, y=64.00, z=-213.50] died, message: 'Unemployed was killed'
+[25Dec2024 23:47:57.753] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/12747, l='ServerLevel[world]', x=-2040.50, y=64.00, z=-232.50] died, message: 'Unemployed was killed'
+[25Dec2024 23:47:57.755] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/12753, l='ServerLevel[world]', x=-2005.50, y=64.00, z=-222.50] died, message: 'Unemployed was killed'
+[25Dec2024 23:47:57.756] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/12754, l='ServerLevel[world]', x=-2001.50, y=64.00, z=-222.50] died, message: 'Unemployed was killed'
+[25Dec2024 23:47:57.757] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/12755, l='ServerLevel[world]', x=-2003.50, y=68.00, z=-222.50] died, message: 'Unemployed was killed'
+[25Dec2024 23:47:57.758] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/12756, l='ServerLevel[world]', x=-2005.50, y=68.00, z=-222.50] died, message: 'Unemployed was killed'
+[25Dec2024 23:47:57.758] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/12757, l='ServerLevel[world]', x=-2086.50, y=65.00, z=-209.50] died, message: 'Unemployed was killed'
+[25Dec2024 23:47:57.760] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/12790, l='ServerLevel[world]', x=-2041.43, y=64.56, z=-232.07] died, message: 'Unemployed was killed'
+[25Dec2024 23:47:57.770] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/13582, l='ServerLevel[world]', x=-2031.50, y=64.00, z=-240.50] died, message: 'Unemployed was killed'
+[25Dec2024 23:47:57.771] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/13583, l='ServerLevel[world]', x=-2029.50, y=64.00, z=-256.50] died, message: 'Unemployed was killed'
+[25Dec2024 23:47:57.772] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/13596, l='ServerLevel[world]', x=-2041.50, y=64.00, z=-248.50] died, message: 'Unemployed was killed'
+[25Dec2024 23:47:57.781] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samugabe: Killed 329 entities]
+[25Dec2024 23:47:59.579] [Server thread/DEBUG] [twilightforest/]: Player PurpleGuyKiller7 (43c2ee71-9ae4-37a2-b797-1b2ae16c37c2) respawned and received items held in storage
+[25Dec2024 23:48:00.548] [Server thread/DEBUG] [twilightforest/]: Player Samugabe (68fa38b2-3af3-3f63-ab43-976257297021) respawned and received items held in storage
+[25Dec2024 23:48:05.086] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PurpleGuyKiller7 moved too quickly! -2099.657963381608,-53.0,-38.57018596854456
+[25Dec2024 23:48:11.021] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Samugabe moved too quickly! -2098.8215874011207,-59.0,-53.4087525252044
+[25Dec2024 23:48:19.910] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity ancient_elements:stone_golem but it was marked as removed already
+[25Dec2024 23:48:20.561] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity ancient_elements:stone_golem but it was marked as removed already
+[25Dec2024 23:48:20.860] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity ancient_elements:stone_golem but it was marked as removed already
+[25Dec2024 23:48:21.011] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity ancient_elements:stone_golem but it was marked as removed already
+[25Dec2024 23:48:21.260] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity ancient_elements:stone_golem but it was marked as removed already
+[25Dec2024 23:48:21.711] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity ancient_elements:stone_golem but it was marked as removed already
+[25Dec2024 23:48:23.011] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity ancient_elements:stone_golem but it was marked as removed already
+[25Dec2024 23:48:23.211] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity ancient_elements:stone_golem but it was marked as removed already
+[25Dec2024 23:48:23.411] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity ancient_elements:stone_golem but it was marked as removed already
+[25Dec2024 23:48:24.761] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity ancient_elements:stone_golem but it was marked as removed already
+[25Dec2024 23:48:25.061] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity ancient_elements:stone_golem but it was marked as removed already
+[25Dec2024 23:48:25.260] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity ancient_elements:stone_golem but it was marked as removed already
+[25Dec2024 23:48:48.428] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity ancient_elements:stone_golem but it was marked as removed already
+[25Dec2024 23:48:48.611] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity ancient_elements:stone_golem but it was marked as removed already
+[25Dec2024 23:48:48.811] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity ancient_elements:stone_golem but it was marked as removed already
+[25Dec2024 23:48:49.010] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity ancient_elements:stone_golem but it was marked as removed already
+[25Dec2024 23:48:49.210] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity ancient_elements:stone_golem but it was marked as removed already
+[25Dec2024 23:48:49.410] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity ancient_elements:stone_golem but it was marked as removed already
+[25Dec2024 23:48:49.612] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity ancient_elements:stone_golem but it was marked as removed already
+[25Dec2024 23:48:58.160] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity ancient_elements:undead_miner but it was marked as removed already
+[25Dec2024 23:48:58.959] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity ancient_elements:undead_miner but it was marked as removed already
+[25Dec2024 23:48:59.260] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity ancient_elements:undead_miner but it was marked as removed already
+[25Dec2024 23:48:59.660] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity ancient_elements:undead_miner but it was marked as removed already
+[25Dec2024 23:48:59.810] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity ancient_elements:undead_miner but it was marked as removed already
+[25Dec2024 23:48:59.961] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity ancient_elements:undead_miner but it was marked as removed already
+[25Dec2024 23:49:00.111] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity ancient_elements:undead_miner but it was marked as removed already
+[25Dec2024 23:49:00.261] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity ancient_elements:undead_miner but it was marked as removed already
+[25Dec2024 23:49:00.410] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity ancient_elements:undead_miner but it was marked as removed already
+[25Dec2024 23:49:00.561] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity ancient_elements:undead_miner but it was marked as removed already
+[25Dec2024 23:49:02.058] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PurpleGuyKiller7 has made the advancement [Inferno Explorer]
+[25Dec2024 23:49:05.509] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity ancient_elements:undead_miner but it was marked as removed already
+[25Dec2024 23:49:07.410] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity ancient_elements:undead_miner but it was marked as removed already
+[25Dec2024 23:49:07.710] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity ancient_elements:undead_miner but it was marked as removed already
+[25Dec2024 23:49:07.910] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity ancient_elements:undead_miner but it was marked as removed already
+[25Dec2024 23:49:21.109] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PurpleGuyKiller7 has completed the challenge [Absolute Zero]
+[25Dec2024 23:50:52.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PurpleGuyKiller7 was killed
+[25Dec2024 23:50:52.566] [Server thread/INFO] [com.lothrazar.simpletomb.ModTomb/]: simpletomb.message.new_grave(-2097, 64, -65) minecraft:overworld
+[25Dec2024 23:50:52.567] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PurpleGuyKiller7: Killed PurpleGuyKiller7]
+[25Dec2024 23:50:55.268] [Server thread/DEBUG] [twilightforest/]: Player PurpleGuyKiller7 (43c2ee71-9ae4-37a2-b797-1b2ae16c37c2) respawned and received items held in storage
+[25Dec2024 23:50:59.213] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samugabe was killed
+[25Dec2024 23:50:59.215] [Server thread/INFO] [com.lothrazar.simpletomb.ModTomb/]: simpletomb.message.new_grave(-2089, 66, -51) minecraft:overworld
+[25Dec2024 23:50:59.215] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PurpleGuyKiller7 was killed
+[25Dec2024 23:50:59.215] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samugabe: Killed 2 entities]
+[25Dec2024 23:51:00.667] [Server thread/DEBUG] [twilightforest/]: Player PurpleGuyKiller7 (43c2ee71-9ae4-37a2-b797-1b2ae16c37c2) respawned and received items held in storage
+[25Dec2024 23:51:03.010] [Server thread/DEBUG] [twilightforest/]: Player Samugabe (68fa38b2-3af3-3f63-ab43-976257297021) respawned and received items held in storage
+[25Dec2024 23:51:09.267] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Samugabe moved too quickly! -2093.322797582667,-53.0,-48.167187376151624
+[25Dec2024 23:51:13.320] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PurpleGuyKiller7 moved too quickly! -2098.519083962262,-55.7531999805212,-57.47058475512122
+[25Dec2024 23:51:19.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PurpleGuyKiller7 was killed
+[25Dec2024 23:51:19.929] [Server thread/INFO] [com.lothrazar.simpletomb.ModTomb/]: simpletomb.message.new_grave(-2103, 64, -60) minecraft:overworld
+[25Dec2024 23:51:19.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samugabe: Killed PurpleGuyKiller7]
+[25Dec2024 23:51:21.201] [Server thread/DEBUG] [twilightforest/]: Player PurpleGuyKiller7 (43c2ee71-9ae4-37a2-b797-1b2ae16c37c2) respawned and received items held in storage
+[25Dec2024 23:51:26.764] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PurpleGuyKiller7 moved too quickly! -2102.6709144319434,-57.00133597911214,-64.44082355392774
+[25Dec2024 23:51:34.656] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PurpleGuyKiller7 has made the advancement [Palette Swap]

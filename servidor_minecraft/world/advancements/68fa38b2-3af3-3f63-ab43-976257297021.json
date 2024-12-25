@@ -97,6 +97,12 @@
     },
     "done": true
   },
+  "aether:recipes/decorations/skyroot_bed": {
+    "criteria": {
+      "has_wool": "2024-12-25 23:44:35 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/redstone/reinforced_birch_fence_gate": {
     "criteria": {
       "has_stick": "2024-12-25 23:23:02 +0000"
@@ -124,6 +130,12 @@
   "securitycraft:recipes/redstone/reinforced_jungle_fence_gate": {
     "criteria": {
       "has_stick": "2024-12-25 23:23:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_smoking": {
+    "criteria": {
+      "has_mutton": "2024-12-25 23:44:35 +0000"
     },
     "done": true
   },
@@ -169,6 +181,12 @@
     },
     "done": true
   },
+  "ancient_elements:combustive_weapon": {
+    "criteria": {
+      "combustive_weapon": "2024-12-25 23:41:30 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/mine_stone": {
     "criteria": {
       "get_stone": "2024-12-25 23:25:48 +0000"
@@ -193,6 +211,12 @@
     },
     "done": true
   },
+  "ancient_elements:stab_in_the_back": {
+    "criteria": {
+      "stab_in_the_back": "2024-12-25 23:41:45 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/birch_fence": {
     "criteria": {
       "has_planks": "2024-12-25 23:36:34 +0000"
@@ -208,6 +232,12 @@
   "securitycraft:recipes/redstone/laser_block": {
     "criteria": {
       "has_stone": "2024-12-25 23:25:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/painting": {
+    "criteria": {
+      "has_wool": "2024-12-25 23:44:35 +0000"
     },
     "done": true
   },
@@ -387,6 +417,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/white_carpet": {
+    "criteria": {
+      "has_white_wool": "2024-12-25 23:44:35 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/misc/reinforced_acacia_fence": {
     "criteria": {
       "has_stick": "2024-12-25 23:23:02 +0000"
@@ -501,6 +537,18 @@
     },
     "done": true
   },
+  "ancient_elements:i_am_inevitable": {
+    "criteria": {
+      "i_am_inevitable": "2024-12-25 23:41:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton": {
+    "criteria": {
+      "has_mutton": "2024-12-25 23:44:35 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/campfire": {
     "criteria": {
       "has_stick": "2024-12-25 23:23:02 +0000"
@@ -516,6 +564,12 @@
   "minecraft:recipes/decorations/granite_wall": {
     "criteria": {
       "has_granite": "2024-12-25 23:26:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_banner": {
+    "criteria": {
+      "has_white_wool": "2024-12-25 23:44:35 +0000"
     },
     "done": true
   },
@@ -561,6 +615,12 @@
     },
     "done": true
   },
+  "ancient_elements:sword_of_space": {
+    "criteria": {
+      "sword_of_space": "2024-12-25 23:41:53 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/andesite": {
     "criteria": {
       "has_stone": "2024-12-25 23:25:51 +0000"
@@ -600,6 +660,18 @@
   "minecraft:recipes/redstone/birch_trapdoor": {
     "criteria": {
       "has_planks": "2024-12-25 23:36:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
+    "criteria": {
+      "has_mutton": "2024-12-25 23:44:35 +0000"
+    },
+    "done": true
+  },
+  "ancient_elements:master_sorcerer": {
+    "criteria": {
+      "master_sorcerer": "2024-12-25 23:41:33 +0000"
     },
     "done": true
   },
@@ -699,9 +771,21 @@
     },
     "done": true
   },
+  "aether:recipes/combat/white_cape": {
+    "criteria": {
+      "has_white_wool": "2024-12-25 23:44:35 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2024-12-25 23:25:48 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/flint_and_steel_repairing": {
+    "criteria": {
+      "has_flint_and_steel": "2024-12-25 23:40:16 +0000"
     },
     "done": true
   },
@@ -726,6 +810,18 @@
   "minecraft:recipes/building_blocks/polished_andesite_stairs_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2024-12-25 23:25:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_bed": {
+    "criteria": {
+      "has_white_wool": "2024-12-25 23:44:35 +0000"
+    },
+    "done": true
+  },
+  "ancient_elements:is_it_a_pickaxe": {
+    "criteria": {
+      "is_it_a_pickaxe": "2024-12-25 23:41:34 +0000"
     },
     "done": true
   },
@@ -774,6 +870,12 @@
   "minecraft:recipes/building_blocks/polished_diorite_slab_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2024-12-25 23:25:51 +0000"
+    },
+    "done": true
+  },
+  "ancient_elements:gettingan_upgrade_2": {
+    "criteria": {
+      "gettingan_upgrade_2": "2024-12-25 23:41:55 +0000"
     },
     "done": true
   },
