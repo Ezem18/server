@@ -1,1 +1,848 @@
-[26Dec2024 00:01:38.396] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samugabe: Set own game mode to Survival Mode]
+[26Dec2024 20:02:22.267] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[26Dec2024 20:02:22.271] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.5 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
+[26Dec2024 20:02:26.967] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[26Dec2024 20:02:26.973] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirector CoreMod initialized successfully!
+[26Dec2024 20:02:27.509] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/server/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[26Dec2024 20:02:28.120] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[26Dec2024 20:02:28.153] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[26Dec2024 20:02:28.154] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[26Dec2024 20:02:28.155] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[26Dec2024 20:02:29.901] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[26Dec2024 20:02:29.903] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 38 dependencies adding them to mods collection
+[26Dec2024 20:02:30.312] [main/INFO] [org.groovymc.gml.mappings.MappingsProvider/]: Starting runtime mappings setup...
+[26Dec2024 20:02:30.338] [main/INFO] [org.groovymc.gml.internal.locator.ModLocatorInjector/]: Injecting ScriptModLocator candidates...
+[26Dec2024 20:02:30.354] [main/INFO] [org.groovymc.gml.scriptmods.ScriptModLocator/]: Injected Jimfs file system
+[26Dec2024 20:02:30.360] [main/INFO] [org.groovymc.gml.scriptmods.ScriptModLocator/]: Skipped loading script mods from directory /workspaces/server/servidor_minecraft/mods/scripts as it did not exist.
+[26Dec2024 20:02:30.373] [main/INFO] [org.groovymc.gml.internal.locator.ModLocatorInjector/]: Injected ScriptModLocator mod candidates. Found 0 valid mod candidates and 0 broken mod files.
+[26Dec2024 20:02:34.262] [GML Mappings Thread/INFO] [org.groovymc.gml.mappings.MappingsProvider/]: Loaded runtime mappings in 3685ms
+[26Dec2024 20:02:34.263] [GML Mappings Thread/INFO] [org.groovymc.gml.mappings.MappingsProvider/]: Finished runtime mappings setup.
+[26Dec2024 20:02:34.856] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[26Dec2024 20:02:35.060] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [ca.spottedleaf.starlight.mixin.MixinConnector]
+[26Dec2024 20:02:35.061] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[26Dec2024 20:02:35.071] [main/WARN] [mixin/]: Reference map 'limitedchunks.refmap.json' for limitedchunks.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Dec2024 20:02:35.290] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.19.7+mc1.20.1: 84 options available, 0 override(s) found
+[26Dec2024 20:02:35.291] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[26Dec2024 20:02:35.315] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[26Dec2024 20:02:35.342] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/llamalad7/mixinextras/service/MixinExtrasVersion
+[26Dec2024 20:02:35.415] [main/INFO] [fpsreducer/]: OptiFine was NOT detected.
+[26Dec2024 20:02:35.417] [main/INFO] [fpsreducer/]: OptiFabric was NOT detected.
+[26Dec2024 20:02:35.544] [main/INFO] [Canary/]: Loaded configuration file for Canary: 116 options available, 0 override(s) found
+[26Dec2024 20:02:35.607] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting malte0811/ferritecore/mixin/config/FerriteMixinConfig$LithiumSupportState
+[26Dec2024 20:02:35.624] [main/WARN] [mixin/]: Reference map 'nitrogen_internals.refmap.json' for nitrogen_internals.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Dec2024 20:02:35.628] [main/WARN] [mixin/]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Dec2024 20:02:36.236] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[26Dec2024 20:02:36.249] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[26Dec2024 20:02:37.825] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[26Dec2024 20:02:38.125] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/util/Unit
+[26Dec2024 20:02:38.156] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/ChatFormatting
+[26Dec2024 20:02:38.597] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (20.40 s after launch)
+[26Dec2024 20:02:38.741] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/Util$IdentityStrategy
+[26Dec2024 20:02:38.754] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/Holder$Reference$Type
+[26Dec2024 20:02:38.838] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[26Dec2024 20:02:38.838] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[26Dec2024 20:02:39.023] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from com.abdelaziz.canary.mixin.ai.pathing.BlockStateBaseMixin
+[26Dec2024 20:02:39.024] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getPathNodeType from com.abdelaziz.canary.mixin.ai.pathing.BlockStateBaseMixin
+[26Dec2024 20:02:39.024] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[26Dec2024 20:02:39.024] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[26Dec2024 20:02:40.205] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[26Dec2024 20:02:40.206] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[26Dec2024 20:02:40.597] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/Direction
+[26Dec2024 20:02:40.601] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/Direction$AxisDirection
+[26Dec2024 20:02:40.602] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/Direction$Axis
+[26Dec2024 20:02:41.036] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/Direction$Plane
+[26Dec2024 20:02:41.041] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/FrontAndTop
+[26Dec2024 20:02:41.051] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/AttachFace
+[26Dec2024 20:02:41.052] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/BellAttachType
+[26Dec2024 20:02:41.053] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/WallSide
+[26Dec2024 20:02:41.054] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/RedstoneSide
+[26Dec2024 20:02:41.055] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/DoubleBlockHalf
+[26Dec2024 20:02:41.055] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/Half
+[26Dec2024 20:02:41.056] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/RailShape
+[26Dec2024 20:02:41.060] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/BedPart
+[26Dec2024 20:02:41.061] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/ChestType
+[26Dec2024 20:02:41.062] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/ComparatorMode
+[26Dec2024 20:02:41.064] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/DoorHingeSide
+[26Dec2024 20:02:41.069] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/NoteBlockInstrument
+[26Dec2024 20:02:41.302] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/NoteBlockInstrument$Type
+[26Dec2024 20:02:41.304] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/PistonType
+[26Dec2024 20:02:41.305] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/SlabType
+[26Dec2024 20:02:41.306] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/StairsShape
+[26Dec2024 20:02:41.306] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/StructureMode
+[26Dec2024 20:02:41.307] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/BambooLeaves
+[26Dec2024 20:02:41.308] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/Tilt
+[26Dec2024 20:02:41.309] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/DripstoneThickness
+[26Dec2024 20:02:41.310] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/SculkSensorPhase
+[26Dec2024 20:02:42.179] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/material/PushReaction
+[26Dec2024 20:02:42.288] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/BlockBehaviour$OffsetType
+[26Dec2024 20:02:42.289] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/pathfinder/PathComputationType
+[26Dec2024 20:02:42.297] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 3696 milliseconds
+[26Dec2024 20:02:42.381] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/network/NetworkDirection
+[26Dec2024 20:02:42.476] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/DyeColor
+[26Dec2024 20:02:42.478] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/util/ByIdMap$OutOfBoundsStrategy
+[26Dec2024 20:02:42.611] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/AxisCycle
+[26Dec2024 20:02:42.697] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/effect/MobEffectCategory
+[26Dec2024 20:02:42.700] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/ai/attributes/AttributeModifier$Operation
+[26Dec2024 20:02:42.897] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/PressurePlateBlock$Sensitivity
+[26Dec2024 20:02:43.124] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/MultifaceSpreader$SpreadType
+[26Dec2024 20:02:43.160] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/InteractionHand
+[26Dec2024 20:02:43.214] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[26Dec2024 20:02:43.215] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[26Dec2024 20:02:43.217] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/InteractionResult
+[26Dec2024 20:02:43.219] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/biome/Biome$Precipitation
+[26Dec2024 20:02:43.264] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/SkullBlock$Types
+[26Dec2024 20:02:43.567] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/WeatheringCopper$WeatherState
+[26Dec2024 20:02:43.786] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/Rarity
+[26Dec2024 20:02:43.828] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/vehicle/AbstractMinecart$Type
+[26Dec2024 20:02:43.872] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/MobCategory
+[26Dec2024 20:02:44.228] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/ai/goal/Goal$Flag
+[26Dec2024 20:02:44.612] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/Pose
+[26Dec2024 20:02:44.613] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/animal/sniffer/Sniffer$State
+[26Dec2024 20:02:44.629] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/EquipmentSlot
+[26Dec2024 20:02:44.630] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/EquipmentSlot$Type
+[26Dec2024 20:02:44.818] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/ArmorItem$Type
+[26Dec2024 20:02:44.822] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/vehicle/Boat$Type
+[26Dec2024 20:02:44.824] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/ArmorMaterials
+[26Dec2024 20:02:44.838] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/Tiers
+[26Dec2024 20:02:44.895] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/protocol/game/ClientboundPlayerInfoUpdatePacket$Action
+[26Dec2024 20:02:44.981] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/enchantment/Enchantment$Rarity
+[26Dec2024 20:02:44.982] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/enchantment/ProtectionEnchantment$Type
+[26Dec2024 20:02:44.982] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/enchantment/EnchantmentCategory
+[26Dec2024 20:02:45.018] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/scores/criteria/ObjectiveCriteria$RenderType
+[26Dec2024 20:02:45.021] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/Heightmap$Types
+[26Dec2024 20:02:45.061] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/Heightmap$Usage
+[26Dec2024 20:02:45.076] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/chunk/ChunkStatus$ChunkType
+[26Dec2024 20:02:45.132] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/crafting/CraftingBookCategory
+[26Dec2024 20:02:45.147] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/crafting/CookingBookCategory
+[26Dec2024 20:02:45.298] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/Holder$Kind
+[26Dec2024 20:02:45.408] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/placement/CaveSurface
+[26Dec2024 20:02:45.464] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/placement/StructurePlacement$FrequencyReductionMethod
+[26Dec2024 20:02:45.476] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/placement/RandomSpreadType
+[26Dec2024 20:02:45.581] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/StructureSpawnOverride$BoundingBoxType
+[26Dec2024 20:02:45.587] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/GenerationStep$Decoration
+[26Dec2024 20:02:45.588] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/TerrainAdjustment
+[26Dec2024 20:02:45.605] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/structures/MineshaftStructure$Type
+[26Dec2024 20:02:45.610] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/structures/OceanRuinStructure$Type
+[26Dec2024 20:02:45.613] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/structures/RuinedPortalPiece$VerticalPlacement
+[26Dec2024 20:02:45.631] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/GenerationStep$Carving
+[26Dec2024 20:02:45.682] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/biome/Biome$TemperatureModifier
+[26Dec2024 20:02:45.687] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/biome/BiomeSpecialEffects$GrassColorModifier
+[26Dec2024 20:02:45.792] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/SurfaceRules$Temperature
+[26Dec2024 20:02:45.793] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/SurfaceRules$Steep
+[26Dec2024 20:02:45.795] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/SurfaceRules$Hole
+[26Dec2024 20:02:45.795] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/SurfaceRules$AbovePreliminarySurface
+[26Dec2024 20:02:45.796] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/SurfaceRules$Bandlands
+[26Dec2024 20:02:45.801] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$BlendAlpha
+[26Dec2024 20:02:45.802] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$BlendOffset
+[26Dec2024 20:02:45.803] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$BeardifierMarker
+[26Dec2024 20:02:45.806] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$Marker$Type
+[26Dec2024 20:02:45.811] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$WeirdScaledSampler$RarityValueMapper
+[26Dec2024 20:02:45.826] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$Mapped$Type
+[26Dec2024 20:02:45.828] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$TwoArgumentSimpleFunction$Type
+[26Dec2024 20:02:45.847] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/pools/StructureTemplatePool$Projection
+[26Dec2024 20:02:45.857] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/CreativeModeTab$Row
+[26Dec2024 20:02:45.861] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/CreativeModeTab$Type
+[26Dec2024 20:02:46.066] [main/INFO] [org.groovymc.gml.internal.ModExtensionLoader/]: Skipping extension class org.groovymc.cgl.api.extension.client.MinecraftExtensions: it requires dist CLIENT, but we're running on DEDICATED_SERVER
+[26Dec2024 20:02:46.081] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/mojang/math/OctahedralGroup
+[26Dec2024 20:02:46.083] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/mojang/math/SymmetricGroup3
+[26Dec2024 20:02:46.091] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/common/extensions/IForgeHolderSet$SerializationType
+[26Dec2024 20:02:46.095] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/nbt/StreamTagVisitor$ValueResult
+[26Dec2024 20:02:46.110] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/commands/SharedSuggestionProvider$ElementSuggestionType
+[26Dec2024 20:02:46.131] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/Entity$RemovalReason
+[26Dec2024 20:02:46.138] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/MoverType
+[26Dec2024 20:02:46.139] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/Entity$MovementEmission
+[26Dec2024 20:02:46.141] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/sounds/SoundSource
+[26Dec2024 20:02:46.169] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/Rotation
+[26Dec2024 20:02:46.170] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/Mirror
+[26Dec2024 20:02:46.170] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/commands/arguments/EntityAnchorArgument$Anchor
+[26Dec2024 20:02:46.210] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/HumanoidArm
+[26Dec2024 20:02:46.216] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/GameType
+[26Dec2024 20:02:46.217] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/inventory/ClickAction
+[26Dec2024 20:02:46.219] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/player/PlayerModelPart
+[26Dec2024 20:02:46.401] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/common/world/BiomeModifier$Phase
+[26Dec2024 20:02:46.404] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/event/TickEvent$Phase
+[26Dec2024 20:02:46.405] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/event/TickEvent$Type
+[26Dec2024 20:02:46.435] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/commands/Commands$CommandSelection
+[26Dec2024 20:02:46.443] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/blay09/mods/balm/api/event/TickPhase
+[26Dec2024 20:02:46.447] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/server/packs/PackType
+[26Dec2024 20:02:46.452] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/blay09/mods/balm/api/event/EventPriority
+[26Dec2024 20:02:46.549] [modloading-worker-0/INFO] [Jump over Fences/]: This mod should only be installed on the client to save RAM
+[26Dec2024 20:02:46.562] [modloading-worker-0/INFO] [MaxHealthFix/]: Loaded maxhealthfix for Forge.
+[26Dec2024 20:02:46.581] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/blay09/mods/balm/config/ExampleConfigData$ExampleEnum
+[26Dec2024 20:02:46.600] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/common/capabilities/CapabilityManager
+[26Dec2024 20:02:46.618] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/darkhax/bookshelf/api/PhysicalSide
+[26Dec2024 20:02:46.619] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[26Dec2024 20:02:46.619] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[26Dec2024 20:02:46.619] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[26Dec2024 20:02:46.619] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[26Dec2024 20:02:46.619] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[26Dec2024 20:02:46.619] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[26Dec2024 20:02:46.619] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[26Dec2024 20:02:46.620] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/darkhax/bookshelf/api/event/IEventHelper$Ordering
+[26Dec2024 20:02:46.643] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[26Dec2024 20:02:46.643] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[26Dec2024 20:02:46.676] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/lothrazar/simpletomb/data/PartEnum
+[26Dec2024 20:02:46.685] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/ItemDisplayContext
+[26Dec2024 20:02:46.697] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/GameRules$Category
+[26Dec2024 20:02:46.828] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/supermartijn642/durabilitytooltip/TooltipStyle
+[26Dec2024 20:02:46.829] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/supermartijn642/durabilitytooltip/TooltipColorStyle
+[26Dec2024 20:02:46.964] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/aetherteam/aether/recipe/AetherBookCategory
+[26Dec2024 20:02:47.036] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/UseAnim
+[26Dec2024 20:02:47.300] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/OreVeinifier$VeinType
+[26Dec2024 20:02:47.344] [modloading-worker-0/INFO] [necronomicon/]: Necronomicon Initialized
+[26Dec2024 20:02:47.352] [modloading-worker-0/INFO] [necronomicon/]: File exists, reading config for elocindev.necronomicon.NecronomiconConfig.
+[26Dec2024 20:02:47.358] [modloading-worker-0/INFO] [necronomicon/]: Config for elocindev.necronomicon.NecronomiconConfig read successfully.
+[26Dec2024 20:02:47.393] [modloading-worker-0/INFO] [gml/]: Initialised GML mod. Version: 4.0.9
+[26Dec2024 20:02:47.461] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/inventory/ClickType
+[26Dec2024 20:02:47.466] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting team/creative/creativecore/common/config/sync/ConfigSynchronization
+[26Dec2024 20:02:47.467] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting team/creative/creativecore/Side
+[26Dec2024 20:02:47.519] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/legacy/dungeons_plus/structures/reanimated_ruins/ReanimatedRuinsType
+[26Dec2024 20:02:47.598] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/MobSpawnType
+[26Dec2024 20:02:47.611] [modloading-worker-0/INFO] [Ksyxis/]: Ksyxis: Booting... (platform: Forge, manual: false)
+[26Dec2024 20:02:47.612] [modloading-worker-0/INFO] [Ksyxis/]: Ksyxis: Found Mixin library. (version: 0.8.5)
+[26Dec2024 20:02:47.612] [modloading-worker-0/INFO] [Ksyxis/]: Ksyxis: Ready. As always, this mod will speed up your world loading and might or might not break it.
+[26Dec2024 20:02:47.672] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting top/theillusivec4/curios/client/CuriosClientConfig$Client$ButtonCorner
+[26Dec2024 20:02:47.690] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting top/theillusivec4/curios/common/CuriosConfig$KeepCurios
+[26Dec2024 20:02:47.907] [modloading-worker-0/INFO] [noisium/]: Loading Noisium.
+[26Dec2024 20:02:47.994] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/event/entity/player/PlayerInteractEvent$LeftClickBlock$Action
+[26Dec2024 20:02:47.997] [modloading-worker-0/INFO] [com.aetherteam.cumulus.Cumulus/]: Disabling Cumulus as it is on server.
+[26Dec2024 20:02:48.031] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting dev/architectury/utils/Env
+[26Dec2024 20:02:48.059] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[26Dec2024 20:02:48.069] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting twilightforest/util/MagicPaintingVariant$Layer$Parallax$Type
+[26Dec2024 20:02:48.075] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting twilightforest/util/MagicPaintingVariant$Layer$OpacityModifier$Type
+[26Dec2024 20:02:48.114] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[26Dec2024 20:02:48.123] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting dev/architectury/networking/NetworkManager$Side
+[26Dec2024 20:02:48.131] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/ferreusveritas/dynamictrees/DynamicTrees$SwampOakWaterState
+[26Dec2024 20:02:48.132] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/ferreusveritas/dynamictrees/DynamicTrees$AxeDamage
+[26Dec2024 20:02:48.143] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/mrcrayfish/framework/api/config/ConfigType
+[26Dec2024 20:02:48.149] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/mrcrayfish/framework/api/Environment
+[26Dec2024 20:02:48.167] [modloading-worker-0/INFO] [Void Totem/]: Loading up Void Totem (Forge)
+[26Dec2024 20:02:48.220] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/cristellib/config/ConfigType
+[26Dec2024 20:02:48.255] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/ferreusveritas/dynamictrees/block/leaves/LeavesProperties$AgeingConfiguration
+[26Dec2024 20:02:48.260] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/geforcemods/securitycraft/util/SCItemGroup
+[26Dec2024 20:02:48.269] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/mrcrayfish/framework/platform/services/IPlatformHelper$Platform
+[26Dec2024 20:02:48.317] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/ferreusveritas/dynamictrees/block/GrowableBlock$MatureAction
+[26Dec2024 20:02:48.599] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/ferreusveritas/dynamictrees/systems/genfeature/VinesGenFeature$VineType
+[26Dec2024 20:02:48.651] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/ferreusveritas/dynamictrees/worldgen/BiomeDatabase$Operation
+[26Dec2024 20:02:48.698] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/github/L_Ender/lionfishapi/server/util/BiomeUtil$OriginalModdedBiomeProvider
+[26Dec2024 20:02:48.707] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/chat/ChatTypeDecoration$Parameter
+[26Dec2024 20:02:48.718] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/damagesource/DamageScaling
+[26Dec2024 20:02:48.720] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/damagesource/DamageEffects
+[26Dec2024 20:02:48.721] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/damagesource/DeathMessageType
+[26Dec2024 20:02:49.683] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/geforcemods/securitycraft/misc/SCSounds
+[26Dec2024 20:02:49.900] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/lothrazar/simpletomb/block/ModelTomb
+[26Dec2024 20:02:49.919] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting twilightforest/enums/FireJetVariant
+[26Dec2024 20:02:49.926] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting twilightforest/enums/HugeLilypadPiece
+[26Dec2024 20:02:49.928] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting twilightforest/enums/NagastoneVariant
+[26Dec2024 20:02:49.929] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting twilightforest/enums/Diagonals
+[26Dec2024 20:02:49.944] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting twilightforest/enums/BlockLoggingEnum
+[26Dec2024 20:02:49.947] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting twilightforest/block/LightableBlock$Lighting
+[26Dec2024 20:02:49.954] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting twilightforest/block/WroughtIronFenceBlock$PostState
+[26Dec2024 20:02:49.955] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting twilightforest/block/WroughtIronFenceBlock$FenceSide
+[26Dec2024 20:02:49.979] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting twilightforest/enums/TowerDeviceVariant
+[26Dec2024 20:02:50.012] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting twilightforest/enums/BossVariant
+[26Dec2024 20:02:50.013] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting twilightforest/enums/BossVariant$TrophyType
+[26Dec2024 20:02:50.020] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting twilightforest/enums/BanisterShape
+[26Dec2024 20:02:50.026] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting twilightforest/enums/HollowLogVariants$Horizontal
+[26Dec2024 20:02:50.028] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting twilightforest/enums/HollowLogVariants$Climbable
+[26Dec2024 20:02:50.089] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/legacy/structure_gel/api/block/base/IStructureGel$Behavior
+[26Dec2024 20:02:50.213] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/github/L_Ender/cataclysm/blocks/Door_of_Seal_Block$Door_Of_Seal_Part
+[26Dec2024 20:02:50.215] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/github/L_Ender/cataclysm/blocks/Cataclysm_Skull_Block$Types
+[26Dec2024 20:02:50.253] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/geforcemods/securitycraft/blocks/KeypadBarrelBlock$LidFacing
+[26Dec2024 20:02:50.533] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/ferreusveritas/dynamictrees/util/CoordUtils$Surround
+[26Dec2024 20:02:50.548] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/ferreusveritas/dynamictrees/DynamicTrees$DestroyMode
+[26Dec2024 20:02:50.553] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/ferreusveritas/dynamictrees/block/branch/BasicRootsBlock$Layer
+[26Dec2024 20:02:50.700] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/aetherteam/aether/item/combat/AetherItemTiers
+[26Dec2024 20:02:50.705] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/aetherteam/aether/item/combat/AetherArmorMaterials
+[26Dec2024 20:02:50.727] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting twilightforest/enums/TwilightArmorMaterial
+[26Dec2024 20:02:50.746] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting twilightforest/entity/TwilightBoat$Type
+[26Dec2024 20:02:50.945] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/github/L_Ender/cataclysm/items/ModItemTier
+[26Dec2024 20:02:50.949] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/github/L_Ender/cataclysm/items/Armortier
+[26Dec2024 20:02:50.966] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/geforcemods/securitycraft/misc/ModuleType
+[26Dec2024 20:02:50.975] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/geforcemods/securitycraft/misc/PageGroup
+[26Dec2024 20:02:51.491] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
+[26Dec2024 20:02:51.492] [main/INFO] [ModernFix/]: Instantiating Mojang DFU
+[26Dec2024 20:02:52.188] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/darkhax/bookshelf/impl/commands/CommandHand$OutputType
+[26Dec2024 20:02:52.340] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:loot_table_alias
+[26Dec2024 20:02:52.355] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:data_handler_type
+[26Dec2024 20:02:52.357] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:dynamic_spawner
+[26Dec2024 20:02:52.359] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:jigsaw_type
+[26Dec2024 20:02:52.367] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/pathfinder/BlockPathTypes
+[26Dec2024 20:02:52.421] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/Difficulty
+[26Dec2024 20:02:52.455] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/SpawnPlacements$Type
+[26Dec2024 20:02:52.473] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/event/entity/SpawnPlacementRegisterEvent$Operation
+[26Dec2024 20:02:52.719] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/github/L_Ender/lionfishapi/config/biome/BiomeEntryType
+[26Dec2024 20:02:52.755] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/server/servidor_minecraft/config/True Herobrine.toml is not correct. Correcting
+[26Dec2024 20:02:52.757] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Herobrine Spawning was corrected from null to its default, SimpleCommentedConfig:{}. 
+[26Dec2024 20:02:52.757] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Herobrine Spawning.Despawn Distance was corrected from null to its default, 25.0. 
+[26Dec2024 20:02:52.757] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Herobrine Spawning.Y Limit was corrected from null to its default, 60.0. 
+[26Dec2024 20:02:52.757] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Herobrine Spawning.Herobrine Lifetime was corrected from null to its default, 2400.0. 
+[26Dec2024 20:02:52.758] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Herobrine Spawning.Overworld Only was corrected from null to its default, true. 
+[26Dec2024 20:02:52.911] [modloading-worker-0/INFO] [com.limitedchunks.LimitedChunks/]: Limited chunkloading initialized
+[26Dec2024 20:02:52.917] [modloading-worker-0/INFO] [com.connectivity.Connectivity/]: Connectivity initialized
+[26Dec2024 20:02:52.935] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting dev/shadowsoffire/placebo/config/Property$Type
+[26Dec2024 20:02:52.946] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mezz/jei/common/network/PacketIdServer
+[26Dec2024 20:02:52.974] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mezz/jei/common/config/GiveMode
+[26Dec2024 20:02:52.976] [modloading-worker-0/INFO] [com.farsight.FarsightMod/]: farsight_view mod initialized
+[26Dec2024 20:02:52.995] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/inventory/RecipeBookType
+[26Dec2024 20:02:53.079] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/legacy/structure_gel/core/item/building_tool/ToolModeProperty$Replace
+[26Dec2024 20:02:53.084] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/legacy/structure_gel/core/item/building_tool/ToolModeProperty$SGRotation
+[26Dec2024 20:02:53.087] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/legacy/structure_gel/core/item/building_tool/ToolModeProperty$SGMirror
+[26Dec2024 20:02:53.089] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/legacy/structure_gel/core/item/building_tool/ToolModeProperty$Shape
+[26Dec2024 20:02:53.129] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting top/theillusivec4/curios/api/type/capability/ICurio$DropRule
+[26Dec2024 20:02:53.130] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting top/theillusivec4/curios/common/network/server/sync/SPacketSyncStack$HandlerType
+[26Dec2024 20:02:53.137] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/geforcemods/securitycraft/network/client/OpenScreen$DataType
+[26Dec2024 20:02:53.161] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/aetherteam/nitrogen/api/users/User$Tier
+[26Dec2024 20:02:53.162] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting it/hurts/octostudios/nerb/common/config/misc/ButtonMode
+[26Dec2024 20:02:53.181] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting org/yaml/snakeyaml/introspector/BeanAccess
+[26Dec2024 20:02:53.183] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/geforcemods/securitycraft/network/server/RemoteControlMine$Action
+[26Dec2024 20:02:53.197] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/geforcemods/securitycraft/util/StandingOrWallType
+[26Dec2024 20:02:53.204] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/geforcemods/securitycraft/blockentities/BlockChangeDetectorBlockEntity$DetectionMode
+[26Dec2024 20:02:53.214] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/ferreusveritas/dynamictrees/item/DendroPotion$DendroPotionType
+[26Dec2024 20:02:53.215] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/geforcemods/securitycraft/network/server/SyncProjector$DataType
+[26Dec2024 20:02:53.221] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/geforcemods/securitycraft/blockentities/RiftStabilizerBlockEntity$TeleportationType
+[26Dec2024 20:02:53.224] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting org/yaml/snakeyaml/nodes/NodeId
+[26Dec2024 20:02:53.227] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/geforcemods/securitycraft/network/server/SyncSSSSettingsOnServer$DataType
+[26Dec2024 20:02:53.263] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting org/yaml/snakeyaml/DumperOptions$ScalarStyle
+[26Dec2024 20:02:53.264] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting org/yaml/snakeyaml/DumperOptions$FlowStyle
+[26Dec2024 20:02:53.265] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting org/yaml/snakeyaml/DumperOptions$LineBreak
+[26Dec2024 20:02:53.265] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting org/yaml/snakeyaml/DumperOptions$NonPrintableStyle
+[26Dec2024 20:02:53.295] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting org/yaml/snakeyaml/comments/CommentType
+[26Dec2024 20:02:53.300] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting it/hurts/octostudios/octolib/modules/config/cfgbuilder/EntryId
+[26Dec2024 20:02:53.330] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting org/yaml/snakeyaml/events/Event$ID
+[26Dec2024 20:02:53.331] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting org/yaml/snakeyaml/tokens/Token$ID
+[26Dec2024 20:02:53.431] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether] Starting version check at https://github.com/The-Aether-Team/The-Aether/raw/1.20.1-develop/update.json
+[26Dec2024 20:02:53.524] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/mrcrayfish/framework/api/network/MessageDirection
+[26Dec2024 20:02:53.849] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting top/theillusivec4/curios/api/SlotTypePreset
+[26Dec2024 20:02:53.861] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether] Found status: UP_TO_DATE Current: 1.20.1-1.5.1-neoforge Target: null
+[26Dec2024 20:02:53.861] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Starting version check at https://mrcrayfish.com/modupdatejson?id=goblintraders
+[26Dec2024 20:02:53.975] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/jade/api/config/IWailaConfig$DisplayMode
+[26Dec2024 20:02:53.977] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/jade/api/config/IWailaConfig$TTSMode
+[26Dec2024 20:02:53.978] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/jade/api/config/IWailaConfig$FluidMode
+[26Dec2024 20:02:53.979] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/ClipContext$Fluid
+[26Dec2024 20:02:53.982] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/jade/api/config/IWailaConfig$BossBarOverlapMode
+[26Dec2024 20:02:53.996] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/jade/api/config/IWailaConfig$IconMode
+[26Dec2024 20:02:54.005] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at com.aetherteam.aether.integration.jade.AetherJadePlugin
+[26Dec2024 20:02:54.013] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at twilightforest.compat.jade.JadeCompat
+[26Dec2024 20:02:54.014] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[26Dec2024 20:02:54.016] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/jade/addon/vanilla/BrewingStandProvider
+[26Dec2024 20:02:54.017] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/jade/addon/vanilla/BeehiveProvider
+[26Dec2024 20:02:54.018] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/jade/addon/vanilla/CommandBlockProvider
+[26Dec2024 20:02:54.019] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/jade/addon/vanilla/JukeboxProvider
+[26Dec2024 20:02:54.020] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/jade/addon/vanilla/LecternProvider
+[26Dec2024 20:02:54.020] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/jade/addon/vanilla/RedstoneProvider
+[26Dec2024 20:02:54.021] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/jade/addon/vanilla/FurnaceProvider
+[26Dec2024 20:02:54.023] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/jade/addon/vanilla/ChiseledBookshelfProvider
+[26Dec2024 20:02:54.024] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/jade/addon/universal/ItemStorageProvider
+[26Dec2024 20:02:54.025] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/jade/addon/vanilla/AnimalOwnerProvider
+[26Dec2024 20:02:54.026] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/jade/addon/vanilla/StatusEffectsProvider
+[26Dec2024 20:02:54.027] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/jade/addon/vanilla/MobGrowthProvider
+[26Dec2024 20:02:54.028] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/jade/addon/vanilla/MobBreedingProvider
+[26Dec2024 20:02:54.028] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/jade/addon/vanilla/ChickenEggProvider
+[26Dec2024 20:02:54.028] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/jade/addon/vanilla/ZombieVillagerProvider
+[26Dec2024 20:02:54.029] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/jade/addon/vanilla/CampfireProvider
+[26Dec2024 20:02:54.030] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[26Dec2024 20:02:54.031] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/jade/addon/universal/EntityItemStorageProvider
+[26Dec2024 20:02:54.032] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/jade/addon/universal/FluidStorageProvider
+[26Dec2024 20:02:54.033] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/jade/addon/universal/EntityFluidStorageProvider
+[26Dec2024 20:02:54.033] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/jade/addon/universal/EnergyStorageProvider
+[26Dec2024 20:02:54.034] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/jade/addon/universal/EntityEnergyStorageProvider
+[26Dec2024 20:02:54.035] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/jade/addon/universal/ProgressProvider
+[26Dec2024 20:02:54.036] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/jade/addon/universal/EntityProgressProvider
+[26Dec2024 20:02:54.036] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[26Dec2024 20:02:54.037] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/jade/addon/core/RegistryNameProvider$Mode
+[26Dec2024 20:02:54.037] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/jade/addon/core/ObjectNameProvider
+[26Dec2024 20:02:54.038] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.geforcemods.securitycraft.compat.hudmods.JadeDataProvider
+[26Dec2024 20:02:54.039] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at com.ferreusveritas.dynamictrees.compat.waila.WailaCompat
+[26Dec2024 20:02:54.471] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting org/embeddedt/modernfix/util/BakeReason
+[26Dec2024 20:02:54.876] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[26Dec2024 20:02:55.095] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: true_herobrine:herobrine_spawn_egg Expected: 3460 Got: 4321
+[26Dec2024 20:02:55.096] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: true_herobrine:herobrine Expected: 283 Got: 373
+[26Dec2024 20:02:55.170] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/nbt/StreamTagVisitor$EntryResult
+[26Dec2024 20:02:55.216] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/util/datafix/DataFixTypes
+[26Dec2024 20:02:55.234] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23253!/assets/.mcassetsroot' uses unexpected schema
+[26Dec2024 20:02:55.234] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23253!/data/.mcassetsroot' uses unexpected schema
+[26Dec2024 20:02:55.293] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Found status: BETA Current: 1.9.3 Target: 1.9.3
+[26Dec2024 20:02:55.293] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [maxhealthfix] Starting version check at https://updates.blamejared.com/get?n=maxhealthfix&gv=1.20.1
+[26Dec2024 20:02:55.302] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/server/packs/repository/Pack$Position
+[26Dec2024 20:02:55.303] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/server/packs/repository/PackCompatibility
+[26Dec2024 20:02:55.349] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/server/RegistryLayer
+[26Dec2024 20:02:55.402] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [maxhealthfix] Found status: BETA Current: 12.0.3 Target: 12.0.3
+[26Dec2024 20:02:55.403] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Starting version check at https://updates.blamejared.com/get?n=bookshelf&gv=1.20.1
+[26Dec2024 20:02:55.430] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Found status: BETA Current: 20.2.13 Target: 20.2.13
+[26Dec2024 20:02:55.430] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [shieldexp] Starting version check at https://infernalstudios.org/api/mods/shieldexpansion/forge
+[26Dec2024 20:02:55.519] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [shieldexp] Found status: BETA Current: 1.1.7a Target: null
+[26Dec2024 20:02:55.520] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[26Dec2024 20:02:55.700] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.22
+[26Dec2024 20:02:55.701] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [simpletomb] Starting version check at https://raw.githubusercontent.com/Lothrazar/SimpleTomb/trunk/1.20/update.json
+[26Dec2024 20:02:55.833] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [simpletomb] Found status: BETA Current: 1.20.1-1.3.0 Target: 1.3.0
+[26Dec2024 20:02:55.833] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
+[26Dec2024 20:02:56.249] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Found status: AHEAD Current: 4.3.2508 Target: null
+[26Dec2024 20:02:56.250] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Starting version check at http://changelogs.moddinglegacy.com/structure-gel.json
+[26Dec2024 20:02:56.353] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/supermartijn642/formations/structure/StructurePlacement
+[26Dec2024 20:02:56.922] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Found status: BETA Current: 2.16.2 Target: null
+[26Dec2024 20:02:56.923] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchdesc] Starting version check at https://updates.blamejared.com/get?n=enchdesc&gv=1.20.1
+[26Dec2024 20:02:56.949] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchdesc] Found status: BETA Current: 17.1.19 Target: 17.1.19
+[26Dec2024 20:02:56.950] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gml] Starting version check at https://maven.moddinginquisition.org/releases/org/groovymc/gml/gml/forge-promotions.json
+[26Dec2024 20:02:57.304] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gml] Found status: BETA Current: 4.0.9 Target: null
+[26Dec2024 20:02:57.305] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dungeons_plus] Starting version check at http://changelogs.moddinglegacy.com/dungeons-plus.json
+[26Dec2024 20:02:57.551] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dungeons_plus] Found status: BETA Current: 1.5.0 Target: null
+[26Dec2024 20:02:57.552] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ksyxis] Starting version check at https://raw.githubusercontent.com/VidTu/Ksyxis/main/updater_ksyxis_forge.json
+[26Dec2024 20:02:57.684] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ksyxis] Found status: UP_TO_DATE Current: 1.3.2 Target: null
+[26Dec2024 20:02:57.685] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[26Dec2024 20:02:57.798] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/entity/JigsawBlockEntity$JointType
+[26Dec2024 20:02:57.850] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.9.12 Target: null
+[26Dec2024 20:02:57.851] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [canary] Starting version check at https://github.com/AbdElAziz333/Canary/raw/mc1.19.2/dev/updates.json
+[26Dec2024 20:02:57.932] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$MulOrAdd$Type
+[26Dec2024 20:02:57.993] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [canary] Found status: UP_TO_DATE Current: 0.3.3 Target: null
+[26Dec2024 20:02:57.993] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cumulus_menus] Starting version check at https://github.com/The-Aether-Team/Cumulus/raw/1.20.1-develop/update.json
+[26Dec2024 20:02:58.008] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cumulus_menus] Found status: UP_TO_DATE Current: 1.20.1-1.0.1-neoforge Target: null
+[26Dec2024 20:02:58.008] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
+[26Dec2024 20:02:58.308] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting twilightforest/world/components/layer/vanillalegacy/SmoothLayer
+[26Dec2024 20:02:58.313] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting twilightforest/world/components/layer/vanillalegacy/ZoomLayer
+[26Dec2024 20:02:58.317] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting twilightforest/world/components/layer/StabilizeLayer
+[26Dec2024 20:02:58.770] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/storage/PrimaryLevelData$SpecialWorldProperty
+[26Dec2024 20:02:58.805] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/storage/loot/LootContext$EntityTarget
+[26Dec2024 20:02:58.814] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/commands/CommandBuildContext$MissingTagAccessPolicy
+[26Dec2024 20:02:58.878] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Found status: BETA Current: 0.7.12 Target: 0.7.12
+[26Dec2024 20:02:58.878] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [strayed_fates_forsaken] Starting version check at https://api.modrinth.com/updates/3GGOgUqD/forge_updates.json
+[26Dec2024 20:02:58.955] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/chat/ClickEvent$Action
+[26Dec2024 20:02:59.076] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/lothrazar/simpletomb/data/TombCommands
+[26Dec2024 20:02:59.079] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [strayed_fates_forsaken] Found status: UP_TO_DATE Current: 1.1.3.2 Target: null
+[26Dec2024 20:02:59.079] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamictrees] Starting version check at https://github.com/DynamicTreesTeam/DynamicTreesVersionInfo/blob/master/DynamicTrees.json?raw=true
+[26Dec2024 20:02:59.120] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/geforcemods/securitycraft/commands/ConvertCommand$ConversionMode
+[26Dec2024 20:02:59.124] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/lothrazar/library/mod/CommandModule$SubCommands
+[26Dec2024 20:02:59.315] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag minecraft:impact_projectiles as it is missing following references: ancient_elements:crystalbeam_projectile (from ancient_elements-1.3.4.jar), 
+	ancient_elements:deflected_wind (from ancient_elements-1.3.4.jar), 
+	ancient_elements:moltenspearprojektile (from ancient_elements-1.3.4.jar), 
+	ancient_elements:wind (from ancient_elements-1.3.4.jar)
+[26Dec2024 20:02:59.360] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamictrees] Found status: BETA Current: 1.20.1-1.3.6 Target: null
+[26Dec2024 20:02:59.712] [Worker-Main-1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/mrcrayfish/goblintraders/trades/TradeRarity
+[26Dec2024 20:02:59.731] [Worker-Main-3/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/storage/loot/functions/CopyNameFunction$NameSource
+[26Dec2024 20:02:59.738] [Worker-Main-3/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/storage/loot/functions/CopyNbtFunction$MergeStrategy
+[26Dec2024 20:03:00.057] [Worker-Main-3/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/ItemStack$TooltipPart
+[26Dec2024 20:03:00.078] [Worker-Main-3/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/animal/axolotl/Axolotl$Variant
+[26Dec2024 20:03:00.079] [Worker-Main-3/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/animal/Fox$Type
+[26Dec2024 20:03:00.080] [Worker-Main-3/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/animal/MushroomCow$MushroomType
+[26Dec2024 20:03:00.082] [Worker-Main-3/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/animal/Rabbit$Variant
+[26Dec2024 20:03:00.083] [Worker-Main-3/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/animal/horse/Variant
+[26Dec2024 20:03:00.084] [Worker-Main-3/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/animal/horse/Llama$Variant
+[26Dec2024 20:03:00.086] [Worker-Main-3/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/animal/Parrot$Variant
+[26Dec2024 20:03:00.087] [Worker-Main-3/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/animal/TropicalFish$Pattern
+[26Dec2024 20:03:00.088] [Worker-Main-3/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/animal/TropicalFish$Base
+[26Dec2024 20:03:00.117] [Worker-Main-3/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/saveddata/maps/MapDecoration$Type
+[26Dec2024 20:03:00.515] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
+[26Dec2024 20:03:00.599] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
+[26Dec2024 20:03:00.605] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
+[26Dec2024 20:03:00.611] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
+[26Dec2024 20:03:00.632] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/FireworkRocketItem$Shape
+[26Dec2024 20:03:00.635] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe miningmaster:forging/paragon_shield: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'miningmaster:forging_recipe'
+[26Dec2024 20:03:00.640] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
+[26Dec2024 20:03:00.643] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
+[26Dec2024 20:03:00.644] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
+[26Dec2024 20:03:00.646] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dynamictrees:guide: com.google.gson.JsonSyntaxException: Missing conditions, expected to find a JsonArray
+[26Dec2024 20:03:00.650] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe shieldexp:griefer_shield: com.google.gson.JsonSyntaxException: Unknown item 'savage_and_ravage:blast_proof_plating'
+[26Dec2024 20:03:00.650] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
+[26Dec2024 20:03:00.654] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 23 recipes
+[26Dec2024 20:03:00.663] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/advancements/FrameType
+[26Dec2024 20:03:00.792] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2846 advancements
+[26Dec2024 20:03:00.797] [main/INFO] [placebo/]: Registered 0 additional recipes.
+[26Dec2024 20:03:00.816] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting twilightforest/data/custom/stalactites/entry/Stalactite$HollowHillType
+[26Dec2024 20:03:00.817] [main/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
+[26Dec2024 20:03:00.826] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 17 curio slots
+[26Dec2024 20:03:00.832] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 9 curio entities
+[26Dec2024 20:03:00.896] [main/INFO] [com.cupboard.Cupboard/]: Loaded config for: connectivity.json
+[26Dec2024 20:03:00.897] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/ferreusveritas/dynamictrees/api/worldgen/BiomePropertySelectors$Chance
+[26Dec2024 20:03:00.908] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/ferreusveritas/dynamictrees/worldgen/deserialisation/JsonMath$MathFunction
+[26Dec2024 20:03:00.916] [main/INFO] [placebo/]: Registered 0 gear_sets.
+[26Dec2024 20:03:00.944] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: forsaken:has_structures/wells/pit/cobble
+[26Dec2024 20:03:00.952] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/event/TagsUpdatedEvent$UpdateCause
+[26Dec2024 20:03:01.344] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[26Dec2024 20:03:01.344] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[26Dec2024 20:03:01.344] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[26Dec2024 20:03:01.345] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[26Dec2024 20:03:01.415] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[26Dec2024 20:03:01.470] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[26Dec2024 20:03:01.562] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[26Dec2024 20:03:01.562] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[26Dec2024 20:03:01.562] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[26Dec2024 20:03:01.563] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[26Dec2024 20:03:01.579] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/geforcemods/securitycraft/util/TeamUtils$TeamType
+[26Dec2024 20:03:01.629] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/common/world/StructureModifier$Phase
+[26Dec2024 20:03:01.717] [Server thread/INFO] [Framework/]: Loading server configs...
+[26Dec2024 20:03:01.730] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[26Dec2024 20:03:01.735] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/util/ModCheck$Confidence
+[26Dec2024 20:03:01.767] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/ai/village/VillageSiege$State
+[26Dec2024 20:03:01.825] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/ticks/TickPriority
+[26Dec2024 20:03:01.830] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
+[26Dec2024 20:03:01.835] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/chunk/storage/IOWorker$Priority
+[26Dec2024 20:03:01.866] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/entity/Visibility
+[26Dec2024 20:03:01.868] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/entity/PersistentEntitySectionManager$ChunkLoadStatus
+[26Dec2024 20:03:01.876] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/server/level/FullChunkStatus
+[26Dec2024 20:03:01.937] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/WorldgenRandom$Algorithm
+[26Dec2024 20:03:02.067] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/LightLayer
+[26Dec2024 20:03:02.182] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/lighting/LayerLightEventListener$DummyLightLayerEventListener
+[26Dec2024 20:03:02.185] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/BossEvent$BossBarColor
+[26Dec2024 20:03:02.186] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/BossEvent$BossBarOverlay
+[26Dec2024 20:03:02.188] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/protocol/game/ClientboundBossEventPacket$OperationType
+[26Dec2024 20:03:02.198] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/aetherteam/nitrogen/capability/INBTSynchable$Type
+[26Dec2024 20:03:02.213] [Server thread/INFO] [Ksyxis/MinecraftServerMixin/]: Ksyxis: Hey. This is Ksyxis. We will now load the world and will try to do it quickly. If the game is not responding after this, it's probably us to blame or delete for good. This message appears always, even if the mod works flawlessly. (modern)
+[26Dec2024 20:03:02.213] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[26Dec2024 20:03:02.217] [Server thread/WARN] [mixin/]: Method overwrite conflict for removeIf in canary.mixins.json:world.chunk_tickets.SortedArraySetMixin, previously written by org.embeddedt.modernfix.common.mixin.bugfix.paper_chunk_patches.SortedArraySetMixin. Skipping method.
+[26Dec2024 20:03:02.309] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/EmptyBlockGetter
+[26Dec2024 20:03:02.310] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/Direction8
+[26Dec2024 20:03:02.346] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ca/spottedleaf/starlight/common/light/StarLightEngine$AxisDirection
+[26Dec2024 20:03:02.361] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 148 ms
+[26Dec2024 20:03:02.361] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (0.788s)! For help, type "help"
+[26Dec2024 20:03:02.402] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[26Dec2024 20:03:02.431] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: limitedchunks.json
+[26Dec2024 20:03:02.431] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: farsight.json
+[26Dec2024 20:03:02.432] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: smoothchunk.json
+[26Dec2024 20:03:02.433] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: betterfpsdist.json
+[26Dec2024 20:03:02.433] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/mrcrayfish/framework/api/LogicalEnvironment
+[26Dec2024 20:03:02.437] [Server thread/WARN] [ModernFix/]: Dedicated server took 44.245 seconds to load
+[26Dec2024 20:03:02.475] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/ferreusveritas/dynamictrees/api/season/ClimateZoneType
+[26Dec2024 20:03:02.607] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/SupportType
+[26Dec2024 20:03:02.740] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/ai/control/MoveControl$Operation
+[26Dec2024 20:03:20.823] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/protocol/PacketFlow
+[26Dec2024 20:03:20.850] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/ConnectionProtocol
+[26Dec2024 20:03:20.909] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/protocol/game/ClientboundCustomChatCompletionsPacket$Action
+[26Dec2024 20:03:20.930] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/protocol/game/ClientboundRecipePacket$State
+[26Dec2024 20:03:20.943] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/server/ServerScoreboard$Method
+[26Dec2024 20:03:20.957] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/protocol/game/ServerboundClientCommandPacket$Action
+[26Dec2024 20:03:20.958] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/player/ChatVisiblity
+[26Dec2024 20:03:20.962] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/protocol/game/ServerboundInteractPacket$ActionType
+[26Dec2024 20:03:20.968] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/protocol/game/ServerboundPlayerActionPacket$Action
+[26Dec2024 20:03:20.969] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/protocol/game/ServerboundPlayerCommandPacket$Action
+[26Dec2024 20:03:20.972] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/protocol/game/ServerboundResourcePackPacket$Action
+[26Dec2024 20:03:20.973] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/protocol/game/ServerboundSeenAdvancementsPacket$Action
+[26Dec2024 20:03:20.976] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/entity/CommandBlockEntity$Mode
+[26Dec2024 20:03:20.978] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/entity/StructureBlockEntity$UpdateType
+[26Dec2024 20:03:27.504] [Netty Epoll Server IO #4/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/network/ConnectionType
+[26Dec2024 20:03:27.578] [Netty Epoll Server IO #4/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/server/network/ServerLoginPacketListenerImpl$State
+[26Dec2024 20:03:29.396] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/util/AbortableIterationConsumer$Continuation
+[26Dec2024 20:03:29.405] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: PurpleGuyKiller7[/127.133.135.55:37453] logged in with entity id 2 at (-2209.9069793038484, 73.22053297069, -17.37978512612896)
+[26Dec2024 20:03:29.412] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/network/filters/VanillaPacketSplitter$RemoteCompatibility
+[26Dec2024 20:03:29.417] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/monster/SpellcasterIllager$IllagerSpell
+[26Dec2024 20:03:29.419] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/github/L_Ender/cataclysm/entity/Pet/The_Baby_Leviathan_Entity$AttackMode
+[26Dec2024 20:03:29.427] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/github/L_Ender/cataclysm/entity/AnimationMonster/BossMonsters/The_Leviathan/The_Leviathan_Entity$AttackMode
+[26Dec2024 20:03:29.432] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/github/L_Ender/cataclysm/entity/AnimationMonster/BossMonsters/Ancient_Ancient_Remnant_Entity$AttackMode
+[26Dec2024 20:03:29.434] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting twilightforest/entity/boss/KnightPhantom$Formation
+[26Dec2024 20:03:29.438] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting nonamecrackers2/endertrigon/common/entity/BabyEnderDragon$Phase
+[26Dec2024 20:03:29.441] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/github/L_Ender/cataclysm/entity/AnimationMonster/BossMonsters/Nameless_Sorcerer_Entity$SpellType
+[26Dec2024 20:03:29.442] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/github/L_Ender/cataclysm/entity/InternalAnimationMonster/IABossMonsters/Ancient_Remnant/Ancient_Remnant_Entity$AttackMode
+[26Dec2024 20:03:29.444] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/github/L_Ender/cataclysm/entity/Pet/Modern_Remnant_Entity$AttackMode
+[26Dec2024 20:03:29.522] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PurpleGuyKiller7 joined the game
+[26Dec2024 20:03:29.523] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/RelativeMovement
+[26Dec2024 20:03:29.683] [Server thread/INFO] [Jade/]: Syncing config to PurpleGuyKiller7 (43c2ee71-9ae4-37a2-b797-1b2ae16c37c2)
+[26Dec2024 20:03:29.796] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/server/advancements/AdvancementVisibilityEvaluator$VisibilityRule
+[26Dec2024 20:03:29.808] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/aetherteam/nitrogen/capability/INBTSynchable$Direction
+[26Dec2024 20:03:30.296] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/scores/Team$CollisionRule
+[26Dec2024 20:03:30.366] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Samugabe[/127.18.96.177:45595] logged in with entity id 3 at (-2082.0062821219153, 74.78568460588608, -163.24490770721215)
+[26Dec2024 20:03:30.450] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samugabe joined the game
+[26Dec2024 20:03:30.478] [Server thread/INFO] [Jade/]: Syncing config to Samugabe (68fa38b2-3af3-3f63-ab43-976257297021)
+[26Dec2024 20:03:30.581] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/ai/village/poi/PoiManager$Occupancy
+[26Dec2024 20:03:30.724] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/ferreusveritas/dynamictrees/entity/FallingTreeEntity$DestroyType
+[26Dec2024 20:03:30.725] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/ferreusveritas/dynamictrees/util/BranchDestructionData$PosType
+[26Dec2024 20:03:30.905] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/border/BorderStatus
+[26Dec2024 20:03:31.124] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/gameevent/GameEventListener$DeliveryMode
+[26Dec2024 20:03:31.169] [Netty Epoll Server IO #4/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/network/NetworkEvent$RegistrationChangeType
+[26Dec2024 20:03:31.390] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/ClipContext$Block
+[26Dec2024 20:03:31.392] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/phys/HitResult$Type
+[26Dec2024 20:03:31.395] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/Level$ExplosionInteraction
+[26Dec2024 20:03:31.396] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/Explosion$BlockInteraction
+[26Dec2024 20:03:31.412] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/chunk/LevelChunk$EntityCreationType
+[26Dec2024 20:03:31.785] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting software/bernie/geckolib/core/object/PlayState
+[26Dec2024 20:03:32.074] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/util/profiling/metrics/MetricCategory
+[26Dec2024 20:03:33.206] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2017ms or 40 ticks behind
+[26Dec2024 20:03:35.880] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/RenderShape
+[26Dec2024 20:03:37.310] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/server/commands/SetBlockCommand$Mode
+[26Dec2024 20:03:40.938] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/entity/BeehiveBlockEntity$BeeReleaseStatus
+[26Dec2024 20:03:43.105] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/animal/horse/Markings
+[26Dec2024 20:03:44.823] [Worker-Main-3/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/ferreusveritas/dynamictrees/worldgen/DynamicTreeFeature$GeneratorResult
+[26Dec2024 20:04:13.801] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/event/entity/ProjectileImpactEvent$ImpactResult
+[26Dec2024 20:04:38.751] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/event/entity/player/AdvancementEvent$AdvancementProgressEvent$ProgressType
+[26Dec2024 20:04:47.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samugabe has reached the goal [Abyssal Conqueror]
+[26Dec2024 20:04:50.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PurpleGuyKiller7: Killed 1389 entities]
+[26Dec2024 20:05:07.846] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PurpleGuyKiller7 was killed
+[26Dec2024 20:05:07.853] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/lothrazar/simpletomb/data/MessageType
+[26Dec2024 20:05:07.854] [Server thread/INFO] [com.lothrazar.simpletomb.ModTomb/]: simpletomb.message.new_grave(-2170, 40, -103) minecraft:overworld
+[26Dec2024 20:05:14.802] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PurpleGuyKiller7 moved too quickly! -2170.5,-80.0,-103.5
+[26Dec2024 20:05:19.246] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samugabe was killed
+[26Dec2024 20:05:19.248] [Server thread/INFO] [com.lothrazar.simpletomb.ModTomb/]: simpletomb.message.new_grave(-2143, 42, -80) minecraft:overworld
+[26Dec2024 20:05:25.354] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Samugabe moved too quickly! -2149.793659537308,-73.7531999805212,-89.53051983082214
+[26Dec2024 20:05:40.896] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PurpleGuyKiller7: Killed Samugabe]
+[26Dec2024 20:05:58.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PurpleGuyKiller7: Killed PurpleGuyKiller7]
+[26Dec2024 20:06:03.695] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/event/entity/living/LivingChangeTargetEvent$LivingTargetType
+[26Dec2024 20:06:40.045] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PurpleGuyKiller7: Killed PurpleGuyKiller7]
+[26Dec2024 20:06:53.394] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PurpleGuyKiller7 lost connection: Disconnected
+[26Dec2024 20:06:53.395] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PurpleGuyKiller7 left the game
+[26Dec2024 20:06:53.396] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PurpleGuyKiller7 was killed
+[26Dec2024 20:06:53.399] [Server thread/INFO] [com.lothrazar.simpletomb.ModTomb/]: simpletomb.message.new_grave(-2147, 43, -81) minecraft:overworld
+[26Dec2024 20:06:57.224] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: PurpleGuyKiller7[/127.133.135.55:49695] logged in with entity id 5512 at (-2146.7931886676224, 43.0, -80.82102048229395)
+[26Dec2024 20:06:57.243] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PurpleGuyKiller7 joined the game
+[26Dec2024 20:06:57.279] [Server thread/INFO] [Jade/]: Syncing config to PurpleGuyKiller7 (43c2ee71-9ae4-37a2-b797-1b2ae16c37c2)
+[26Dec2024 20:07:07.020] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PurpleGuyKiller7 moved too quickly! -2143.5,-77.1212968405392,-82.5
+[26Dec2024 20:07:21.248] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samugabe: Killed Samugabe]
+[26Dec2024 20:07:29.753] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samugabe was killed
+[26Dec2024 20:07:29.758] [Server thread/INFO] [com.lothrazar.simpletomb.ModTomb/]: simpletomb.message.new_grave(-2174, 58, -63) minecraft:overworld
+[26Dec2024 20:07:29.775] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samugabe: Killed 253 entities]
+[26Dec2024 20:07:36.302] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Samugabe moved too quickly! -2176.3776543105087,-61.92159999847412,-64.4018766109537
+[26Dec2024 20:08:07.442] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PurpleGuyKiller7 has reached the goal [Abyssal Conqueror]
+[26Dec2024 20:08:14.944] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/github/L_Ender/lionfishapi/server/animation/AnimationHandler
+[26Dec2024 20:09:52.839] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/server/commands/FillCommand$Mode
+[26Dec2024 20:09:52.977] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samugabe: Successfully filled 21712 block(s)]
+[26Dec2024 20:10:24.393] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3755ms or 75 ticks behind
+[26Dec2024 20:10:29.429] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PurpleGuyKiller7 moved too quickly! 7.77821075778229,2.6923014069521543,6.091077880310706
+[26Dec2024 20:10:32.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samugabe: Killed 16588 entities]
+[26Dec2024 20:10:33.696] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/ferreusveritas/dynamictrees/api/treedata/TreePart$TreePartType
+[26Dec2024 20:10:43.012] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samugabe was killed
+[26Dec2024 20:10:43.027] [Server thread/INFO] [com.lothrazar.simpletomb.ModTomb/]: simpletomb.message.new_grave(-2134, 83, -110) minecraft:overworld
+[26Dec2024 20:10:43.268] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3879ms or 77 ticks behind
+[26Dec2024 20:10:47.540] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity ancient_elements:undead_miner but it was marked as removed already
+[26Dec2024 20:10:55.060] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PurpleGuyKiller7 was killed
+[26Dec2024 20:10:55.066] [Server thread/INFO] [com.lothrazar.simpletomb.ModTomb/]: simpletomb.message.new_grave(-2150, 45, -63) minecraft:overworld
+[26Dec2024 20:11:09.532] [Netty Epoll Server IO #0/WARN] [com.connectivity.Connectivity/]: Packet:ServerboundBlockEntityTagQuery  id 1 larger than expected error detected, printing packet and buffer. Stacktrace gets logged after this
+[26Dec2024 20:11:09.554] [Netty Epoll Server IO #0/WARN] [com.connectivity.Connectivity/]: Packet data:
+{
+  "f_133798_": 1,
+  "f_133799_": "BlockPos{x=2622464, y=994, z=1073200}"
+}
+[26Dec2024 20:11:09.556] [Netty Epoll Server IO #0/WARN] [com.connectivity.Connectivity/]: Packet:PooledUnsafeDirectByteBuf  id 1 data of 11 extra bytes: 
+[26Dec2024 20:11:09.565] [Netty Epoll Server IO #0/WARN] [com.connectivity.Connectivity/]: Packet data:
+[
+  "<partial numeric data>",
+  "[-81, 52, -83, 40, 51, 82, 1, -7, 2, 48, 55]"
+]
+[26Dec2024 20:11:10.337] [Netty Epoll Server IO #2/WARN] [com.connectivity.Connectivity/]: Packet:ServerboundBlockEntityTagQuery  id 1 larger than expected error detected, printing packet and buffer. Stacktrace gets logged after this
+[26Dec2024 20:11:10.338] [Netty Epoll Server IO #2/WARN] [com.connectivity.Connectivity/]: Packet data:
+{
+  "f_133798_": 1,
+  "f_133799_": "BlockPos{x=2622464, y=1018, z=1073200}"
+}
+[26Dec2024 20:11:10.339] [Netty Epoll Server IO #2/WARN] [com.connectivity.Connectivity/]: Packet:PooledUnsafeDirectByteBuf  id 1 data of 11 extra bytes: 
+[26Dec2024 20:11:10.339] [Netty Epoll Server IO #2/WARN] [com.connectivity.Connectivity/]: Packet data:
+[
+  "<partial numeric data>",
+  "[122, 23, -45, 72, 53, 21, 13, 80, -90, -16, -102]"
+]
+[26Dec2024 20:11:10.468] [Netty Epoll Server IO #3/WARN] [com.connectivity.Connectivity/]: Packet:ServerboundBlockEntityTagQuery  id 1 larger than expected error detected, printing packet and buffer. Stacktrace gets logged after this
+[26Dec2024 20:11:10.469] [Netty Epoll Server IO #3/WARN] [com.connectivity.Connectivity/]: Packet data:
+{
+  "f_133798_": 1,
+  "f_133799_": "BlockPos{x=2622464, y=785, z=1073200}"
+}
+[26Dec2024 20:11:10.469] [Netty Epoll Server IO #3/WARN] [com.connectivity.Connectivity/]: Packet:PooledUnsafeDirectByteBuf  id 1 data of 93 extra bytes: 
+[26Dec2024 20:11:10.469] [Netty Epoll Server IO #3/WARN] [com.connectivity.Connectivity/]: Packet data:
+[
+  "BJCjF`l::wS{9t 5iqc*Sh&}^5I;3w&+/,0/5"
+]
+[26Dec2024 20:11:10.757] [Netty Epoll Server IO #4/WARN] [com.connectivity.Connectivity/]: Packet:ServerboundBlockEntityTagQuery  id 1 larger than expected error detected, printing packet and buffer. Stacktrace gets logged after this
+[26Dec2024 20:11:10.758] [Netty Epoll Server IO #4/WARN] [com.connectivity.Connectivity/]: Packet data:
+{
+  "f_133798_": 1,
+  "f_133799_": "BlockPos{x=2622464, y=938, z=1073200}"
+}
+[26Dec2024 20:11:10.759] [Netty Epoll Server IO #4/WARN] [com.connectivity.Connectivity/]: Packet:PooledUnsafeDirectByteBuf  id 1 data of 110 extra bytes: 
+[26Dec2024 20:11:10.759] [Netty Epoll Server IO #4/WARN] [com.connectivity.Connectivity/]: Packet data:
+[
+  "7x5w&T$S r5>H:~-9u&+/,0/5"
+]
+[26Dec2024 20:11:10.760] [Netty Epoll Server IO #4/WARN] [com.connectivity.Connectivity/]: Packet:ServerboundContainerButtonClickPacket  id 10 larger than expected error detected, printing packet and buffer. Stacktrace gets logged after this
+[26Dec2024 20:11:10.761] [Netty Epoll Server IO #4/WARN] [com.connectivity.Connectivity/]: Packet data:
+{
+  "f_133923_": 114,
+  "f_133924_": -19
+}
+[26Dec2024 20:11:10.761] [Netty Epoll Server IO #4/WARN] [com.connectivity.Connectivity/]: Packet:PooledUnsafeDirectByteBuf  id 10 data of 142 extra bytes: 
+[26Dec2024 20:11:10.762] [Netty Epoll Server IO #4/WARN] [com.connectivity.Connectivity/]: Packet data:
+[
+  "5>H:~-9u&+/,0/524.ip.gl.ply.gg"
+]
+[26Dec2024 20:11:10.762] [Netty Epoll Server IO #4/WARN] [com.connectivity.Connectivity/]: Packet:ServerboundChatAckPacket  id 3 larger than expected error detected, printing packet and buffer. Stacktrace gets logged after this
+[26Dec2024 20:11:10.764] [Netty Epoll Server IO #4/WARN] [com.connectivity.Connectivity/]: Packet data:
+"ServerboundChatAckPacket[offset=111787181]"
+[26Dec2024 20:11:10.764] [Netty Epoll Server IO #4/WARN] [com.connectivity.Connectivity/]: Packet:PooledUnsafeDirectByteBuf  id 3 data of 140 extra bytes: 
+[26Dec2024 20:11:10.764] [Netty Epoll Server IO #4/WARN] [com.connectivity.Connectivity/]: Packet data:
+[
+  ">H:~-9u&+/,0/524.ip.gl.ply.gg"
+]
+[26Dec2024 20:11:10.765] [Netty Epoll Server IO #4/WARN] [com.connectivity.Connectivity/]: Packet:ServerboundAcceptTeleportationPacket  id 0 larger than expected error detected, printing packet and buffer. Stacktrace gets logged after this
+[26Dec2024 20:11:10.766] [Netty Epoll Server IO #4/WARN] [com.connectivity.Connectivity/]: Packet data:
+{
+  "f_133785_": 1155
+}
+[26Dec2024 20:11:10.766] [Netty Epoll Server IO #4/WARN] [com.connectivity.Connectivity/]: Packet:PooledUnsafeDirectByteBuf  id 0 data of 186 extra bytes: 
+[26Dec2024 20:11:10.767] [Netty Epoll Server IO #4/WARN] [com.connectivity.Connectivity/]: Packet data:
+[
+  "-9u&+/,0/524.ip.gl.ply.gg+3& qztHV!=F{a"
+]
+[26Dec2024 20:11:10.768] [Netty Epoll Server IO #4/WARN] [io.netty.util.concurrent.DefaultPromise/]: An exception was thrown by net.minecraft.network.Connection$$Lambda/0x000073af8a12dc10.operationComplete()
+java.util.NoSuchElementException: DefaultChannelPipeline$TailContext#0
+	at io.netty.channel.DefaultChannelPipeline.getContextOrDie(DefaultChannelPipeline.java:1073) ~[netty-transport-4.1.82.Final.jar%2385!/:4.1.82.Final]
+	at io.netty.channel.DefaultChannelPipeline.remove(DefaultChannelPipeline.java:423) ~[netty-transport-4.1.82.Final.jar%2385!/:4.1.82.Final]
+	at net.minecraft.network.Connection.md72d05b$lambda$on$0$2(Connection.java:1110) ~[server-1.20.1-20230612.114412-srg.jar%23253!/:?]
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:552) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at io.netty.util.concurrent.DefaultPromise.addListener(DefaultPromise.java:184) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at io.netty.channel.DefaultChannelPromise.addListener(DefaultChannelPromise.java:95) ~[netty-transport-4.1.82.Final.jar%2385!/:4.1.82.Final]
+	at io.netty.channel.DefaultChannelPromise.addListener(DefaultChannelPromise.java:30) ~[netty-transport-4.1.82.Final.jar%2385!/:4.1.82.Final]
+	at net.minecraft.network.Connection.md72d05b$lambda$on$1$1(Connection.java:1088) ~[server-1.20.1-20230612.114412-srg.jar%23253!/:?]
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:552) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:605) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:104) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at io.netty.channel.DefaultChannelPromise.trySuccess(DefaultChannelPromise.java:84) ~[netty-transport-4.1.82.Final.jar%2385!/:4.1.82.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.safeSetSuccess(AbstractChannel.java:990) ~[netty-transport-4.1.82.Final.jar%2385!/:4.1.82.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$7.run(AbstractChannel.java:823) ~[netty-transport-4.1.82.Final.jar%2385!/:4.1.82.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:403) ~[netty-transport-classes-epoll-4.1.82.Final.jar%2386!/:4.1.82.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[26Dec2024 20:11:10.900] [Netty Epoll Server IO #5/WARN] [com.connectivity.Connectivity/]: Packet:ServerboundBlockEntityTagQuery  id 1 larger than expected error detected, printing packet and buffer. Stacktrace gets logged after this
+[26Dec2024 20:11:10.901] [Netty Epoll Server IO #5/WARN] [com.connectivity.Connectivity/]: Packet data:
+{
+  "f_133798_": 1,
+  "f_133799_": "BlockPos{x=2622464, y=798, z=1073200}"
+}
+[26Dec2024 20:11:10.901] [Netty Epoll Server IO #5/WARN] [com.connectivity.Connectivity/]: Packet:PooledUnsafeDirectByteBuf  id 1 data of 17 extra bytes: 
+[26Dec2024 20:11:10.901] [Netty Epoll Server IO #5/WARN] [com.connectivity.Connectivity/]: Packet data:
+[
+  "<partial numeric data>",
+  "[-5, 66, 21, -20, 122, 56, 2, -20, -112, -19, -5, -64, -58, 10, 32, -22, 8]"
+]
+[26Dec2024 20:11:11.721] [Netty Epoll Server IO #6/WARN] [com.connectivity.Connectivity/]: Packet:ServerboundBlockEntityTagQuery  id 1 larger than expected error detected, printing packet and buffer. Stacktrace gets logged after this
+[26Dec2024 20:11:11.723] [Netty Epoll Server IO #6/WARN] [com.connectivity.Connectivity/]: Packet data:
+{
+  "f_133798_": 1,
+  "f_133799_": "BlockPos{x=2622464, y=850, z=1073200}"
+}
+[26Dec2024 20:11:11.730] [Netty Epoll Server IO #6/WARN] [com.connectivity.Connectivity/]: Packet:PooledUnsafeDirectByteBuf  id 1 data of 130 extra bytes: 
+[26Dec2024 20:11:11.730] [Netty Epoll Server IO #6/WARN] [com.connectivity.Connectivity/]: Packet data:
+[
+  "f/z+P{Q[ }I)4hOxOvz~}&+/,0/524.ip.gl.ply.g"
+]
+[26Dec2024 20:11:11.732] [Netty Epoll Server IO #6/WARN] [com.connectivity.Connectivity/]: Packet:ServerboundChangeDifficultyPacket  id 2 larger than expected error detected, printing packet and buffer. Stacktrace gets logged after this
+[26Dec2024 20:11:11.733] [Netty Epoll Server IO #6/WARN] [com.connectivity.Connectivity/]: Packet data:
+{
+  "f_133814_": "HARD"
+}
+[26Dec2024 20:11:11.734] [Netty Epoll Server IO #6/WARN] [com.connectivity.Connectivity/]: Packet:PooledUnsafeDirectByteBuf  id 2 data of 229 extra bytes: 
+[26Dec2024 20:11:11.735] [Netty Epoll Server IO #6/WARN] [com.connectivity.Connectivity/]: Packet data:
+[
+  "/z+P{Q[ }I)4hOxOvz~}&+/,0/524.ip.gl.ply.g+3&$ kGrnk"
+]
+[26Dec2024 20:11:11.839] [Netty Epoll Server IO #7/WARN] [com.connectivity.Connectivity/]: Packet:ServerboundBlockEntityTagQuery  id 1 larger than expected error detected, printing packet and buffer. Stacktrace gets logged after this
+[26Dec2024 20:11:11.840] [Netty Epoll Server IO #7/WARN] [com.connectivity.Connectivity/]: Packet data:
+{
+  "f_133798_": 1,
+  "f_133799_": "BlockPos{x=2622464, y=938, z=1073200}"
+}
+[26Dec2024 20:11:11.841] [Netty Epoll Server IO #7/WARN] [com.connectivity.Connectivity/]: Packet:PooledUnsafeDirectByteBuf  id 1 data of 11 extra bytes: 
+[26Dec2024 20:11:11.841] [Netty Epoll Server IO #7/WARN] [com.connectivity.Connectivity/]: Packet data:
+[
+  "<partial numeric data>",
+  "[-10, -91, -125, -103, -118, 116, 23, -104, -40, -117, -66]"
+]
+[26Dec2024 20:11:12.128] [Netty Epoll Server IO #0/WARN] [com.connectivity.Connectivity/]: Packet:ServerboundBlockEntityTagQuery  id 1 larger than expected error detected, printing packet and buffer. Stacktrace gets logged after this
+[26Dec2024 20:11:12.129] [Netty Epoll Server IO #0/WARN] [com.connectivity.Connectivity/]: Packet data:
+{
+  "f_133798_": 1,
+  "f_133799_": "BlockPos{x=2622464, y=845, z=1073200}"
+}
+[26Dec2024 20:11:12.134] [Netty Epoll Server IO #0/WARN] [com.connectivity.Connectivity/]: Packet:PooledUnsafeDirectByteBuf  id 1 data of 89 extra bytes: 
+[26Dec2024 20:11:12.134] [Netty Epoll Server IO #0/WARN] [com.connectivity.Connectivity/]: Packet data:
+[
+  "g=m Lcu-hn_ z/w'$$Q5&+/,0"
+]
+[26Dec2024 20:11:12.136] [Netty Epoll Server IO #0/WARN] [com.connectivity.Connectivity/]: Packet:ServerboundAcceptTeleportationPacket  id 0 larger than expected error detected, printing packet and buffer. Stacktrace gets logged after this
+[26Dec2024 20:11:12.136] [Netty Epoll Server IO #0/WARN] [com.connectivity.Connectivity/]: Packet data:
+{
+  "f_133785_": 9787
+}
+[26Dec2024 20:11:12.137] [Netty Epoll Server IO #0/WARN] [com.connectivity.Connectivity/]: Packet:PooledUnsafeDirectByteBuf  id 0 data of 124 extra bytes: 
+[26Dec2024 20:11:12.137] [Netty Epoll Server IO #0/WARN] [com.connectivity.Connectivity/]: Packet data:
+[
+  "cu-hn_ z/w'$$Q5&+/,0524.ip.gl.ply.gg"
+]
+[26Dec2024 20:11:12.144] [Netty Epoll Server IO #0/WARN] [io.netty.util.concurrent.DefaultPromise/]: An exception was thrown by net.minecraft.network.Connection$$Lambda/0x000073af8a12dc10.operationComplete()
+java.util.NoSuchElementException: DefaultChannelPipeline$TailContext#0
+	at io.netty.channel.DefaultChannelPipeline.getContextOrDie(DefaultChannelPipeline.java:1073) ~[netty-transport-4.1.82.Final.jar%2385!/:4.1.82.Final]
+	at io.netty.channel.DefaultChannelPipeline.remove(DefaultChannelPipeline.java:423) ~[netty-transport-4.1.82.Final.jar%2385!/:4.1.82.Final]
+	at net.minecraft.network.Connection.md72d05b$lambda$on$0$2(Connection.java:1110) ~[server-1.20.1-20230612.114412-srg.jar%23253!/:?]
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:552) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at io.netty.util.concurrent.DefaultPromise.addListener(DefaultPromise.java:184) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at io.netty.channel.DefaultChannelPromise.addListener(DefaultChannelPromise.java:95) ~[netty-transport-4.1.82.Final.jar%2385!/:4.1.82.Final]
+	at io.netty.channel.DefaultChannelPromise.addListener(DefaultChannelPromise.java:30) ~[netty-transport-4.1.82.Final.jar%2385!/:4.1.82.Final]
+	at net.minecraft.network.Connection.md72d05b$lambda$on$1$1(Connection.java:1088) ~[server-1.20.1-20230612.114412-srg.jar%23253!/:?]
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:552) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:605) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:104) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at io.netty.channel.DefaultChannelPromise.trySuccess(DefaultChannelPromise.java:84) ~[netty-transport-4.1.82.Final.jar%2385!/:4.1.82.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.safeSetSuccess(AbstractChannel.java:990) ~[netty-transport-4.1.82.Final.jar%2385!/:4.1.82.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$7.run(AbstractChannel.java:823) ~[netty-transport-4.1.82.Final.jar%2385!/:4.1.82.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:403) ~[netty-transport-classes-epoll-4.1.82.Final.jar%2386!/:4.1.82.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[26Dec2024 20:11:13.747] [Netty Epoll Server IO #1/WARN] [com.connectivity.Connectivity/]: Packet:ServerboundBlockEntityTagQuery  id 1 larger than expected error detected, printing packet and buffer. Stacktrace gets logged after this
+[26Dec2024 20:11:13.749] [Netty Epoll Server IO #1/WARN] [com.connectivity.Connectivity/]: Packet data:
+{
+  "f_133798_": 1,
+  "f_133799_": "BlockPos{x=2622464, y=1002, z=1073200}"
+}
+[26Dec2024 20:11:13.749] [Netty Epoll Server IO #1/WARN] [com.connectivity.Connectivity/]: Packet:PooledUnsafeDirectByteBuf  id 1 data of 120 extra bytes: 
+[26Dec2024 20:11:13.750] [Netty Epoll Server IO #1/WARN] [com.connectivity.Connectivity/]: Packet data:
+[
+  "&O{@rQbXb*g cEtGN.Z<ip56&+/,0/524.i"
+]
+[26Dec2024 20:11:14.953] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/DoubleBlockCombiner$BlockType
+[26Dec2024 20:11:20.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samugabe has made the advancement [Fluffy!]
+[26Dec2024 20:11:28.295] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PurpleGuyKiller7 has made the advancement [Fluffy!]
+[26Dec2024 20:11:29.512] [Netty Epoll Server IO #2/WARN] [com.connectivity.Connectivity/]: Packet:ServerboundBlockEntityTagQuery  id 1 larger than expected error detected, printing packet and buffer. Stacktrace gets logged after this
+[26Dec2024 20:11:29.512] [Netty Epoll Server IO #2/WARN] [com.connectivity.Connectivity/]: Packet data:
+{
+  "f_133798_": 1,
+  "f_133799_": "BlockPos{x=5768192, y=769, z=1122352}"
+}
+[26Dec2024 20:11:29.513] [Netty Epoll Server IO #2/WARN] [com.connectivity.Connectivity/]: Packet:PooledUnsafeDirectByteBuf  id 1 data of 11 extra bytes: 
+[26Dec2024 20:11:29.513] [Netty Epoll Server IO #2/WARN] [com.connectivity.Connectivity/]: Packet data:
+[
+  "GDq(lj*'"
+]
+[26Dec2024 20:11:29.837] [Netty Epoll Server IO #3/WARN] [com.connectivity.Connectivity/]: Packet:ServerboundBlockEntityTagQuery  id 1 larger than expected error detected, printing packet and buffer. Stacktrace gets logged after this
+[26Dec2024 20:11:29.839] [Netty Epoll Server IO #3/WARN] [com.connectivity.Connectivity/]: Packet data:
+{
+  "f_133798_": 0,
+  "f_133799_": "BlockPos{x=-8125440, y=925, z=905264}"
+}
+[26Dec2024 20:11:29.839] [Netty Epoll Server IO #3/WARN] [com.connectivity.Connectivity/]: Packet:PooledUnsafeDirectByteBuf  id 1 data of 11 extra bytes: 
+[26Dec2024 20:11:29.840] [Netty Epoll Server IO #3/WARN] [com.connectivity.Connectivity/]: Packet data:
+[
+  "<partial numeric data>",
+  "[-32, 108, 70, -62, -107, 25, 5, 99, -7, 50, -38]"
+]
+[26Dec2024 20:11:30.493] [Netty Epoll Server IO #5/WARN] [com.connectivity.Connectivity/]: Packet:ServerboundBlockEntityTagQuery  id 1 larger than expected error detected, printing packet and buffer. Stacktrace gets logged after this
+[26Dec2024 20:11:30.494] [Netty Epoll Server IO #5/WARN] [com.connectivity.Connectivity/]: Packet data:
+{
+  "f_133798_": 0,
+  "f_133799_": "BlockPos{x=-11271168, y=954, z=856112}"
+}
+[26Dec2024 20:11:30.495] [Netty Epoll Server IO #5/WARN] [com.connectivity.Connectivity/]: Packet:PooledUnsafeDirectByteBuf  id 1 data of 87 extra bytes: 
+[26Dec2024 20:11:30.495] [Netty Epoll Server IO #5/WARN] [com.connectivity.Connectivity/]: Packet data:
+[
+  "WORD&h{<r[/d86s8,0+/$(k#'g93=<5/"
+]
